@@ -17,12 +17,11 @@ public class Test {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Decimal number: ");
-        numberD = 127;
+        numberD = 131;
 
-        System.out.print("\n" + "Binary number: " + convertString(numberD,2) + "\n");
+        System.out.print("\n" + "Binary number: " + convertString(numberD,2) + "\n" +
+                                "Octal number: " + convertString(numberD,8) + "\n" +
+                                "Hexadecimal number: " + convertString(numberD, 16));
 
-        System.out.print("Octal number: " + convertString(numberD,8) + "\n");
-
-        System.out.print("Hexadecimal number: " + convertString(numberD, 16));
     }
 }
