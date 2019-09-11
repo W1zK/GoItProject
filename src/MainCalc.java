@@ -16,15 +16,16 @@ public class MainCalc {
     }
 
     static void show() {
-        System.out.println(decimalConvert(userNumber, 2) + "\n"
-                        + decimalConvert(userNumber, 8) + "\n"
-                        + decimalConvert(userNumber, 16));
+        System.out.print("Binary system:" + decimalConvert(userNumber, 2) + "\n"
+                        + "Octal system:" + decimalConvert(userNumber, 8) + "\n"
+                        + "Hex system:" + decimalConvert(userNumber, 16));
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number:");
         userNumber = scanner.nextInt();
+
         show();
     }
 }
