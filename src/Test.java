@@ -1,27 +1,37 @@
 import java.util.Scanner;
 
 public class Test {
-    static char[] hexa = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
-
-    static public String convertString(int value, int base){
-        String result="";
-        while (value > 0) {
-            result = hexa[value % base] + result;
-            value /= base;
-        }
-        return result;
-    }
-
     public static void main(String[] args) {
-        int numberD;
-        Scanner input = new Scanner(System.in);
 
-        System.out.print("Decimal number: ");
-        numberD = 131;
+        int [] mas = new int[10];
+        for(int i = 0; i < mas.length; i++){
+            mas[i] = (int) Math.round((Math.random())*100);
+//            System.out.println(mas[i] + " ");
+        }
+        int left = 1;
+        int right = mas.length-1;
+        do {
+            for (int i = right; i > left; i--){
+                if(mas[i-1] > mas[i]){
+                    int temp = mas[i];
+                    mas[i] = mas[i-1];
+                    mas[i-1] = temp;
+                }
+            }
+            left++;
+            for (int i = left; i  < right; i++){
+                if (mas[i-1] > mas[i]) {
+                    int temp = mas[i];
+                    mas[i] = mas[i+1];
+                    mas[i+1] = temp;
+                }
+            }
+            right--;
+        }while(left<=right);
 
-        System.out.print("\n" + "Binary number: " + convertString(numberD,2) + "\n" +
-                                "Octal number: " + convertString(numberD,8) + "\n" +
-                                "Hexadecimal number: " + convertString(numberD, 16));
-
+        System.out.println();
+        for (int i = 0; i <mas.length; i++) {
+            System.out.println(mas[i] + " ");
+        }
     }
 }
