@@ -1,0 +1,18 @@
+String str = res1[5];
+        String[] res3=str.split("[.]"); //получение секунд
+        //   System.out.println("res3="+res3[1]);
+        str = str.replaceAll("(.{2})", "$1 "); //разделение массива для времени
+        String[] res2 = str.split(" "); // выделение значения после пробела
+        и вывожу
+        System.out.println("время статус положения: " + res2[0]+":"+res2[1]+":"+res2[2]+":"+res3[1]);
+
+
+
+
+
+
+        //        String sTime;
+        //        String[] subbStr;
+        //        sTime = subStr[1];
+        //        String delimeter = "\\.";
+        //        subbStr = sTime.split(delimeter);
