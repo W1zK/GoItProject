@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1eb18980-408a-4c98-a84d-40e24340c398" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Zametki" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NMEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NMEA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shekerSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shekerSort.java" afterDir="false" />
@@ -23,20 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NMEA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="248" column="46" lean-forward="true" selection-start-line="248" selection-start-column="46" selection-end-line="248" selection-end-column="46" />
+            <state relative-caret-position="1845">
+              <caret line="223" column="28" lean-forward="true" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
               <folding>
-                <element signature="method#circumcision#0;class#NMEA#0" />
-                <element signature="method#gpgsvMethod#0;class#NMEA#0" />
                 <element signature="method#glgsvMethod#0;class#NMEA#0" />
-                <element signature="method#gngllMethod#0;class#NMEA#0" />
                 <element signature="method#gnrmcMethod#0;class#NMEA#0" />
-                <element signature="method#gnvtgMethod#0;class#NMEA#0" />
                 <element signature="method#gnggaMethod#0;class#NMEA#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/shekerSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -44,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/Zametki">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="240">
+              <caret line="16" column="39" selection-start-line="13" selection-start-column="18" selection-end-line="17" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -111,6 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,8 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,23 +236,24 @@
       <workItem from="1568702416525" duration="4940000" />
       <workItem from="1568709517049" duration="94000" />
       <workItem from="1568715780767" duration="15870000" />
+      <workItem from="1568736687267" duration="730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95673000" />
+    <option name="totallyTimeSpent" value="96403000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27078238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27374598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicates" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36954087" />
@@ -263,6 +267,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3281075" />
+      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -343,43 +348,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/Zametki">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="39" selection-start-line="13" selection-start-column="18" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NMEA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="223" column="28" lean-forward="true" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
+          <folding>
+            <element signature="method#glgsvMethod#0;class#NMEA#0" />
+            <element signature="method#gnrmcMethod#0;class#NMEA#0" />
+            <element signature="method#gnggaMethod#0;class#NMEA#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/shaiker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shekerSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="330">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/Zametki">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NMEA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="248" column="46" lean-forward="true" selection-start-line="248" selection-start-column="46" selection-end-line="248" selection-end-column="46" />
-          <folding>
-            <element signature="method#circumcision#0;class#NMEA#0" />
-            <element signature="method#gpgsvMethod#0;class#NMEA#0" />
-            <element signature="method#glgsvMethod#0;class#NMEA#0" />
-            <element signature="method#gngllMethod#0;class#NMEA#0" />
-            <element signature="method#gnrmcMethod#0;class#NMEA#0" />
-            <element signature="method#gnvtgMethod#0;class#NMEA#0" />
-            <element signature="method#gnggaMethod#0;class#NMEA#0" />
-          </folding>
         </state>
       </provider>
     </entry>

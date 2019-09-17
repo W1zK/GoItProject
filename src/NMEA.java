@@ -109,7 +109,7 @@ public class NMEA {
                 "Number satellite(int):" + satId2 + "\n" +
                 "Elevation angle(int):" + elevation2 + "\n" +
                 "Azimuth(int):" + azimuth2 + "\n" +
-                "Signal strength(int):" + snr2 + "\n");
+                "Signal strength(int):" + snr2);
     }
 
     static void gngllMethod() {
