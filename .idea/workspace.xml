@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb18980-408a-4c98-a84d-40e24340c398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/Zametki" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NMEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NMEA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shekerSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shekerSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,25 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NMEA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="223" column="28" lean-forward="true" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
+            <state relative-caret-position="284">
+              <caret line="223" column="30" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
               <folding>
+                <element signature="method#circumcision#0;class#NMEA#0" />
+                <element signature="method#gpgsvMethod#0;class#NMEA#0" />
                 <element signature="method#glgsvMethod#0;class#NMEA#0" />
+                <element signature="method#gngllMethod#0;class#NMEA#0" />
                 <element signature="method#gnrmcMethod#0;class#NMEA#0" />
+                <element signature="method#gnvtgMethod#0;class#NMEA#0" />
                 <element signature="method#gnggaMethod#0;class#NMEA#0" />
+                <element signature="method#gngsaMethod#0;class#NMEA#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/shekerSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -122,11 +114,6 @@
             <path>
               <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
@@ -236,18 +223,18 @@
       <workItem from="1568702416525" duration="4940000" />
       <workItem from="1568709517049" duration="94000" />
       <workItem from="1568715780767" duration="15870000" />
-      <workItem from="1568736687267" duration="730000" />
+      <workItem from="1568736687267" duration="2169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96403000" />
+    <option name="totallyTimeSpent" value="97842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27374598" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27374598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,7 +243,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36954087" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36864865" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39865622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,18 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NMEA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="223" column="28" lean-forward="true" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
-          <folding>
-            <element signature="method#glgsvMethod#0;class#NMEA#0" />
-            <element signature="method#gnrmcMethod#0;class#NMEA#0" />
-            <element signature="method#gnggaMethod#0;class#NMEA#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shaiker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -381,6 +356,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NMEA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="223" column="30" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
+          <folding>
+            <element signature="method#circumcision#0;class#NMEA#0" />
+            <element signature="method#gpgsvMethod#0;class#NMEA#0" />
+            <element signature="method#glgsvMethod#0;class#NMEA#0" />
+            <element signature="method#gngllMethod#0;class#NMEA#0" />
+            <element signature="method#gnrmcMethod#0;class#NMEA#0" />
+            <element signature="method#gnvtgMethod#0;class#NMEA#0" />
+            <element signature="method#gnggaMethod#0;class#NMEA#0" />
+            <element signature="method#gngsaMethod#0;class#NMEA#0" />
+          </folding>
         </state>
       </provider>
     </entry>

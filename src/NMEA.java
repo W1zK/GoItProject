@@ -43,30 +43,30 @@ public class NMEA {
         int azimuth3 = subStr[18].equals("") ? 0 : Integer.valueOf(subStr[18]);
         int snr3 = subStr[19].equals("") ? 0 : Integer.valueOf(subStr[19]);
 
-        System.out.println("Type of massage(String):" + type + "\n" +
-                "Quantity massage(int):" + qMassage + "\n" +
-                "Number of massage(int):" + numMassage + "\n" +
-                "Quantity satellite(int):" + qSat + "\n" +
-                "-----------------------------" + "\n" +
-                "Number satellite(int):" + satId + "\n" +
-                "Elevation angle(int):" + elevation + "\n" +
-                "Azimuth(int):" + azimuth + "\n" +
-                "Signal strength(int):" + snr + "\n" +
-                "-----------------------------" + "\n" +
-                "Number satellite(int):" + satId1 + "\n" +
-                "Elevation angle(int):" + elevation1 + "\n" +
-                "Azimuth(Integer):" + azimuth1 + "\n" +
-                "Signal strength(int):" + snr1 + "\n" +
-                "-----------------------------" + "\n" +
-                "Number satellite(int):" + satId2 + "\n" +
-                "Elevation angle(int):" + elevation2 + "\n" +
-                "Azimuth(int):" + azimuth2 + "\n" +
-                "Signal strength(int):" + snr2 + "\n" +
-                "-----------------------------" + "\n" +
-                "Number satellite(int):" + satId3 + "\n" +
-                "Elevation angle(int):" + elevation3 + "\n" +
-                "Azimuth(int):" + azimuth3 + "\n" +
-                "Signal strength(int):" + snr3);
+        System.out.println("Type of massage(String):" + type +
+                "\nQuantity massage(int):" + qMassage +
+                "\nNumber of massage(int):" + numMassage +
+                "\nQuantity satellite(int):" + qSat +
+                "\n-----------------------------" +
+                "\nNumber satellite(int):" + satId +
+                "\nElevation angle(int):" + elevation +
+                "\nAzimuth(int):" + azimuth +
+                "\nSignal strength(int):" + snr +
+                "\n-----------------------------" +
+                "\nNumber satellite(int):" + satId1 +
+                "\nElevation angle(int):" + elevation1 +
+                "\nAzimuth(Integer):" + azimuth1 +
+                "\nSignal strength(int):" + snr1 +
+                "\n-----------------------------" +
+                "\nNumber satellite(int):" + satId2 +
+                "\nElevation angle(int):" + elevation2 +
+                "\nAzimuth(int):" + azimuth2 +
+                "\nSignal strength(int):" + snr2 +
+                "\n-----------------------------" +
+                "\nNumber satellite(int):" + satId3 +
+                "\nElevation angle(int):" + elevation3 +
+                "\nAzimuth(int):" + azimuth3 +
+                "\nSignal strength(int):" + snr3);
 
 
     }
@@ -91,29 +91,30 @@ public class NMEA {
         int azimuth2 = subStr[14].equals("") ? 0 : Integer.valueOf(subStr[14]);
         int snr2 = subStr[15].equals("") ? 0 : Integer.valueOf(subStr[15]);
 
-        System.out.println("Type of message(String):" + type + "\n" +
-                "Quantity message(int):" + messQuant + "\n" +
-                "Number of message(int):" + messageId + "\n" +
-                "Quantity of satellite(int):" + qSat + "\n" +
-                "-----------------------------" + "\n" +
-                "Number satellite(int):" + satId + "\n" +
-                "Elevation angle(int):" + elevation + "\n" +
-                "Azimuth(int):" + azimuth + "\n" +
-                "Signal strength(int):" + snr + "\n" +
-                "-----------------------------" + "\n" +
-                "Number satellite(int):" + satId1 + "\n" +
-                "Elevation angle(int):" + elevation1 + "\n" +
-                "Azimuth(int):" + azimuth1 + "\n" +
-                "Signal strength(integer):" + snr1 + "\n" +
-                "-----------------------------" + "\n" +
-                "Number satellite(int):" + satId2 + "\n" +
-                "Elevation angle(int):" + elevation2 + "\n" +
-                "Azimuth(int):" + azimuth2 + "\n" +
-                "Signal strength(int):" + snr2);
+        System.out.println("Type of message(String):" + type +
+                "\nQuantity message(int):" + messQuant + "\n" +
+                "\nNumber of message(int):" + messageId + "\n" +
+                "\nQuantity of satellite(int):" + qSat + "\n" +
+                "\n-----------------------------" + "\n" +
+                "\nNumber satellite(int):" + satId + "\n" +
+                "\nElevation angle(int):" + elevation + "\n" +
+                "\nAzimuth(int):" + azimuth + "\n" +
+                "\nSignal strength(int):" + snr + "\n" +
+                "\n-----------------------------" + "\n" +
+                "\nNumber satellite(int):" + satId1 + "\n" +
+                "\nElevation angle(int):" + elevation1 + "\n" +
+                "\nAzimuth(int):" + azimuth1 + "\n" +
+                "\nSignal strength(integer):" + snr1 + "\n" +
+                "\n-----------------------------" + "\n" +
+                "\nNumber satellite(int):" + satId2 + "\n" +
+                "\nElevation angle(int):" + elevation2 + "\n" +
+                "\nAzimuth(int):" + azimuth2 + "\n" +
+                "\nSignal strength(int):" + snr2);
     }
 
     static void gngllMethod() {
         circumcision(GNGLL);
+
         String type = subStr[0];
         double latitude = subStr[1].equals("") ? 0 : Double.valueOf(subStr[1]); //latitude
         char dir = subStr[2].equals("") ? '-' : subStr[2].charAt(0);
@@ -177,12 +178,12 @@ public class NMEA {
         char k = subStr[8].equals("") ? '-' : subStr[8].charAt(0);
         char mode = subStr[9].equals("") ? '-' : subStr[9].charAt(0);
 
-        System.out.println("Message type(String):" + messType + "\n" +
-                "Course over ground, degrees True(double,char):" + course1 + t + "\n" +
-                "Course over ground, degrees Magnetic(double,char):" + course2 + m + "\n" +
-                "Speed over ground in knots(double,char):" + speed1 + n + "\n" +
-                "Speed over ground in kilometers per hour(double,char):" + speed2 + k + "\n" +
-                "Mode(char):" + mode);
+        System.out.println("Message type(String):" + messType +
+                "\nCourse over ground, degrees True(double,char):" + course1 + t +
+                "\nCourse over ground, degrees Magnetic(double,char):" + course2 + m +
+                "\nSpeed over ground in knots(double,char):" + speed1 + n +
+                "\nSpeed over ground in kilometers per hour(double,char):" + speed2 + k +
+                "\nMode(char):" + mode);
 
 
     }
@@ -220,7 +221,7 @@ public class NMEA {
 
     }
 
-    static void gngsaMethod(){
+    static void gngsaMethod() {
         circumcision(GNGSA);
 
         String messType = subStr[0];
@@ -246,18 +247,20 @@ public class NMEA {
                 "\nMode 'M/A'(char):" + mode +
                 "\nMode '1/2/3'(int):" + mode1 +
                 "\nSatellite #1(int)" + sat1 +
-                "\nSatellite #1(int)" + sat2 +
-                "\nSatellite #1(int)" + sat3 +
-                "\nSatellite #1(int)" + sat4 +
-                "\nSatellite #1(int)" + sat5 +
-                "\nSatellite #1(int)" + sat6 +
-                "\nSatellite #1(int)" + sat7 +
-                "\nSatellite #1(int)" + sat8 +
-                "\nSatellite #1(int)" + sat9 +
-                "\nSatellite #1(int)" + sat10 +
-                "\nSatellite #1(int)" + sat11 +
-                "\nSatellite #1(int)" + sat12);
-
+                "\nSatellite #2(int)" + sat2 +
+                "\nSatellite #3(int)" + sat3 +
+                "\nSatellite #4(int)" + sat4 +
+                "\nSatellite #5(int)" + sat5 +
+                "\nSatellite #6(int)" + sat6 +
+                "\nSatellite #7(int)" + sat7 +
+                "\nSatellite #8(int)" + sat8 +
+                "\nSatellite #9(int)" + sat9 +
+                "\nSatellite #10(int)" + sat10 +
+                "\nSatellite #11(int)" + sat11 +
+                "\nSatellite #12(int)" + sat12 +
+                "\nPDOP(double):" + pdop +
+                "\nHDOP(double):" + hdop +
+                "\nVDOP(double):" + vdop);
 
 
     }
@@ -288,8 +291,9 @@ public class NMEA {
             case 6:
                 gnggaMethod();
                 break;
-            case 7: gngsaMethod();
-            break;
+            case 7:
+                gngsaMethod();
+                break;
 
             default:
                 System.out.println("You type wrong number");
