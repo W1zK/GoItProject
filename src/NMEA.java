@@ -18,6 +18,30 @@ public class NMEA {
         subStr[subStr.length - 1] = subStr[subStr.length - 1].substring(0, subStr[subStr.length - 1].indexOf("*"));
     }
 
+    static String timeConvert(int index) {
+        String[] timeStr;
+        String delimeter = "\\.";
+        timeStr = subStr[index].split(delimeter);
+        subStr[index] = timeStr[0].replaceAll("(.{2})", "$1 ");
+        String[] result = subStr[index].split(" ");
+        long hours = subStr[index].equals("") ? 0 : Long.valueOf(result[0]);
+        long minutes = subStr[index].equals("") ? 0 : Long.valueOf(result[1]);
+        long seconds = subStr[index].equals("") ? 0 : Long.valueOf(result[2]);
+        long mSeconds = subStr[index].equals("") ? 0 : Long.valueOf(timeStr[1]);
+
+        return " " + hours + ":" + minutes + ":" + seconds + ":" + mSeconds;
+
+    }
+
+    static String dateTimer(int index) {
+        subStr[index] = subStr[index].replaceAll("(.{2})", "$1 ");
+        String[] result = subStr[index].split(" ");
+        int day = result[0].equals("") ? 0 : Integer.valueOf(result[0]);
+        int month = result[1].equals("") ? 0 : Integer.valueOf(result[1]);
+        char arr[] = result[2].toCharArray();
+        return "Date:" + day + "/" + month + "/" + arr[0] + arr[1];
+    }
+
     static void gpgsvMethod() {
 
         circumcision(GPGSV);
@@ -92,27 +116,28 @@ public class NMEA {
         int snr2 = subStr[15].equals("") ? 0 : Integer.valueOf(subStr[15]);
 
         System.out.println("Type of message(String):" + type +
-                "\nQuantity message(int):" + messQuant + "\n" +
-                "\nNumber of message(int):" + messageId + "\n" +
-                "\nQuantity of satellite(int):" + qSat + "\n" +
-                "\n-----------------------------" + "\n" +
-                "\nNumber satellite(int):" + satId + "\n" +
-                "\nElevation angle(int):" + elevation + "\n" +
-                "\nAzimuth(int):" + azimuth + "\n" +
-                "\nSignal strength(int):" + snr + "\n" +
-                "\n-----------------------------" + "\n" +
-                "\nNumber satellite(int):" + satId1 + "\n" +
-                "\nElevation angle(int):" + elevation1 + "\n" +
-                "\nAzimuth(int):" + azimuth1 + "\n" +
-                "\nSignal strength(integer):" + snr1 + "\n" +
-                "\n-----------------------------" + "\n" +
-                "\nNumber satellite(int):" + satId2 + "\n" +
-                "\nElevation angle(int):" + elevation2 + "\n" +
-                "\nAzimuth(int):" + azimuth2 + "\n" +
+                "\nQuantity message(int):" + messQuant +
+                "\nNumber of message(int):" + messageId +
+                "\nQuantity of satellite(int):" + qSat +
+                "\n-----------------------------" +
+                "\nNumber satellite(int):" + satId +
+                "\nElevation angle(int):" + elevation +
+                "\nAzimuth(int):" + azimuth +
+                "\nSignal strength(int):" + snr +
+                "\n-----------------------------" +
+                "\nNumber satellite(int):" + satId1 +
+                "\nElevation angle(int):" + elevation1 +
+                "\nAzimuth(int):" + azimuth1 +
+                "\nSignal strength(integer):" + snr1 +
+                "\n-----------------------------" +
+                "\nNumber satellite(int):" + satId2 +
+                "\nElevation angle(int):" + elevation2 +
+                "\nAzimuth(int):" + azimuth2 +
                 "\nSignal strength(int):" + snr2);
     }
 
     static void gngllMethod() {
+
         circumcision(GNGLL);
 
         String type = subStr[0];
@@ -120,24 +145,20 @@ public class NMEA {
         char dir = subStr[2].equals("") ? '-' : subStr[2].charAt(0);
         double longitude = subStr[3].equals("") ? 0 : Double.valueOf(subStr[3]); //longitude
         char dir1 = subStr[4].equals("") ? '-' : subStr[4].charAt(0);
-        double time = subStr[5].equals("") ? 0 : Double.valueOf(subStr[5]);
         char dataType = subStr[6].equals("") ? '-' : subStr[6].charAt(0);
 
         System.out.println("Type of message(String):" + type + "\n" +
                 "Latitude(double,char):" + latitude + "," + dir + "\n" +
                 "Longitude(double,char):" + longitude + "," + dir1 + "\n" +
-                "Time registration hhmmss(double):" + time + "\n" +
+                "Time registration hhmmss.sss(String(long)):" + timeConvert(5) + "\n" +
                 "Valid data(char):" + dataType);
-
-
     }
 
     static void gnrmcMethod() {
+
         circumcision(GNRMC);
 
-
         String type = subStr[0];
-        double time = subStr[1].equals("") ? 0 : Double.valueOf(subStr[1]);
         char status = subStr[2].equals("") ? '-' : subStr[2].charAt(0);
         double lat = subStr[3].equals("") ? 0 : Double.valueOf(subStr[3]);
         char dirLat = subStr[4].equals("") ? '-' : subStr[4].charAt(0);
@@ -145,26 +166,22 @@ public class NMEA {
         char dirLon = subStr[6].equals("") ? '-' : subStr[6].charAt(0);
         double speed = subStr[7].equals("") ? 0 : Double.valueOf(subStr[7]);
         double course = subStr[8].equals("") ? 0 : Double.valueOf(subStr[8]);
-        long date = subStr[9].equals("") ? 0 : Long.valueOf(subStr[9]);
         char mode = subStr[10].equals("") ? '-' : subStr[10].charAt(0);
 
+
         System.out.println("Message type(String):" + type + "\n" +
-                "Time(double):" + time + "\n" +
+                "Time(String(long)):" + timeConvert(1) + "\n" +
                 "Status(char):" + status + "\n" +
                 "Latitude(double,char):" + lat + "," + dirLat + "\n" +
                 "Longitude(double,char):" + lon + "," + dirLon + "\n" +
                 "Speed(double):" + speed + "\n" +
                 "Course(double):" + course + "\n" +
-                "Date(long):" + date + "\n" +
+                "Date(long):" + dateTimer(9) + "\n" +
                 "Mode(char):" + mode);
-
-
-        System.out.println(time);
-
-
     }
 
     static void gnvtgMethod() {
+
         circumcision(GNVTG);
 
         String messType = subStr[0];
@@ -184,15 +201,13 @@ public class NMEA {
                 "\nSpeed over ground in knots(double,char):" + speed1 + n +
                 "\nSpeed over ground in kilometers per hour(double,char):" + speed2 + k +
                 "\nMode(char):" + mode);
-
-
     }
 
     static void gnggaMethod() {
+
         circumcision(GNGGA);
 
         String messType = subStr[0];
-        double time = subStr[1].equals("") ? 0 : Double.valueOf(subStr[1]);
         double lat = subStr[2].equals("") ? 0 : Double.valueOf(subStr[2]); //latitude
         char dirLat = subStr[3].equals("") ? '-' : subStr[3].charAt(0);
         double lon = subStr[4].equals("") ? 0 : Double.valueOf(subStr[4]); //longitude
@@ -208,7 +223,7 @@ public class NMEA {
         int dgpsId = subStr[14].equals("") ? 0 : Integer.valueOf(subStr[14]);
 
         System.out.println("Message type(String):" + messType + "\n" +
-                "Time(double):" + time + "\n" +
+                "Time(String(long)):" + timeConvert(1) + "\n" +
                 "Latitude(double,char):" + lat + "," + dirLat + "\n" +
                 "Longitude(double,char):" + lon + "," + dirLon + "\n" +
                 "GPS indicate(int):" + gpsIndic + "\n" +
@@ -217,11 +232,10 @@ public class NMEA {
                 "Altitude(double,char):" + altitude + m1 + "\n" +
                 "Geoidal Separation(double,char):" + geoSepar + m2 + "\n" +
                 "DGPS Station ID(int):" + dgpsId);
-
-
     }
 
     static void gngsaMethod() {
+
         circumcision(GNGSA);
 
         String messType = subStr[0];
@@ -264,7 +278,6 @@ public class NMEA {
 
 
     }
-
 
     public static void main(String[] args) {
         int x;

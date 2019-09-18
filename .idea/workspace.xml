@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb18980-408a-4c98-a84d-40e24340c398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offline/MhetodsPeregruzka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/first.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/obertki.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/sourve/factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/sourve/utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NMEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NMEA.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,108 +19,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/Zametki">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offline/sourve/factorial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NMEA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="37" column="81" selection-start-line="24" selection-start-column="8" selection-end-line="37" selection-end-column="81" />
+            <state relative-caret-position="298">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
+                <element signature="method#circumcision#0;class#NMEA#0" />
+                <element signature="method#timeConvert#0;class#NMEA#0" />
+                <element signature="method#gpgsvMethod#0;class#NMEA#0" />
                 <element signature="method#glgsvMethod#0;class#NMEA#0" />
                 <element signature="method#gngllMethod#0;class#NMEA#0" />
                 <element signature="method#gnrmcMethod#0;class#NMEA#0" />
                 <element signature="method#gnvtgMethod#0;class#NMEA#0" />
                 <element signature="method#gnggaMethod#0;class#NMEA#0" />
                 <element signature="method#gngsaMethod#0;class#NMEA#0" />
+                <element signature="method#main#0;class#NMEA#0" />
+                <element signature="e#14446#15058#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shekerSort.java">
+        <entry file="file://$PROJECT_DIR$/src/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="43" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offline/MhetodsPeregruzka.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="method#show#0;class#MhetodsPeregruzka#0" />
-                <element signature="method#show#1;class#MhetodsPeregruzka#0" />
-                <element signature="e#365#419#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offline/obertki.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offline/sourve/factorial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offline/first.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offline/sourve/utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offline/second.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offline/IfForExamle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/Zametki">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="39" selection-start-line="13" selection-start-column="18" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="595">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -165,14 +103,15 @@
         <option value="$PROJECT_DIR$/src/coctailSort.java" />
         <option value="$PROJECT_DIR$/src/shekerSort.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/out/Zametki" />
-        <option value="$PROJECT_DIR$/src/NMEA.java" />
         <option value="$PROJECT_DIR$/src/offline/MhetodsPeregruzka.java" />
         <option value="$PROJECT_DIR$/src/offline/first.java" />
         <option value="$PROJECT_DIR$/src/offline/utils.java" />
         <option value="$PROJECT_DIR$/src/offline/obertki.java" />
         <option value="$PROJECT_DIR$/src/offline/sourve/utils.java" />
         <option value="$PROJECT_DIR$/src/offline/sourve/factorial.java" />
+        <option value="$PROJECT_DIR$/out/Zametki" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/NMEA.java" />
       </list>
     </option>
   </component>
@@ -197,7 +136,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +146,11 @@
             <path>
               <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -215,18 +158,12 @@
               <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="offline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="offline" type="462c0819:PsiDirectoryNode" />
-              <item name="sourve" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,14 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.factorial">
-    <configuration name="MainCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainCalc" />
-      <module name="GoItProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NMEA">
     <configuration name="NMEA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NMEA" />
       <module name="GoItProject" />
@@ -303,13 +233,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="GoItProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NMEA" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.factorial" />
         <item itemvalue="Application.obertki" />
-        <item itemvalue="Application.NMEA" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MainCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -337,12 +274,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104736000" />
+    <option name="totallyTimeSpent" value="129355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1046" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27374598" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27383864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +289,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36864865" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36506158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39865622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +299,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32756758" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32698768" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -411,61 +349,20 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="25" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offline/Calendar.java" />
     <entry file="file://$PROJECT_DIR$/src/CalcCase.java" />
     <entry file="jar:///opt/java/jdk1.8.0_221/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/MainCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/Zametki">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" selection-start-line="13" selection-start-column="18" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java" />
     <entry file="file://$PROJECT_DIR$/src/shaiker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NMEA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="37" column="81" selection-start-line="24" selection-start-column="8" selection-end-line="37" selection-end-column="81" />
-          <folding>
-            <element signature="method#glgsvMethod#0;class#NMEA#0" />
-            <element signature="method#gngllMethod#0;class#NMEA#0" />
-            <element signature="method#gnrmcMethod#0;class#NMEA#0" />
-            <element signature="method#gnvtgMethod#0;class#NMEA#0" />
-            <element signature="method#gnggaMethod#0;class#NMEA#0" />
-            <element signature="method#gngsaMethod#0;class#NMEA#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offline/ternarOperators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -492,13 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shekerSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="43" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -529,8 +419,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offline/sourve/factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shekerSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="694" column="16" selection-start-line="694" selection-start-column="16" selection-end-line="694" selection-end-column="16" />
+          <folding>
+            <element signature="e#24380#24381#0" expanded="true" />
+            <element signature="e#24405#24406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/ternarOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/Zametki">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10795">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NMEA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="method#circumcision#0;class#NMEA#0" />
+            <element signature="method#timeConvert#0;class#NMEA#0" />
+            <element signature="method#gpgsvMethod#0;class#NMEA#0" />
+            <element signature="method#glgsvMethod#0;class#NMEA#0" />
+            <element signature="method#gngllMethod#0;class#NMEA#0" />
+            <element signature="method#gnrmcMethod#0;class#NMEA#0" />
+            <element signature="method#gnvtgMethod#0;class#NMEA#0" />
+            <element signature="method#gnggaMethod#0;class#NMEA#0" />
+            <element signature="method#gngsaMethod#0;class#NMEA#0" />
+            <element signature="method#main#0;class#NMEA#0" />
+            <element signature="e#14446#15058#0" />
+          </folding>
         </state>
       </provider>
     </entry>
