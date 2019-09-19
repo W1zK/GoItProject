@@ -152,7 +152,7 @@ public class NMEA {
         System.out.println("Type of message(String):" + type +
                 "\nLatitude(double,char):" + latitude + "," + dir +
                 "\nLongitude(double,char):" + longitude + "," + dir1 +
-                "\nTime registration hhmmss.sss(String(long)):" + timeConvert(5) +
+                "\nTime registration hhmmss.sss(String(Date)):" + timeConvert(5) +
                 "\nValid data(char):" + dataType);
     }
 

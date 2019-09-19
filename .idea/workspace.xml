@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb18980-408a-4c98-a84d-40e24340c398" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NMEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NMEA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,13 +37,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NMEA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+            <state relative-caret-position="468">
+              <caret line="317" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="317" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#circumcision#0;class#NMEA#0" />
                 <element signature="method#timeConvert#0;class#NMEA#0" />
                 <element signature="e#1147#1230#0" />
                 <element signature="e#1256#1300#0" />
+                <element signature="method#date2#0;class#NMEA#0" />
                 <element signature="e#1604#1648#0" />
                 <element signature="method#gpgsvMethod#0;class#NMEA#0" />
                 <element signature="method#glgsvMethod#0;class#NMEA#0" />
@@ -128,7 +125,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="width" value="1922" />
     <option name="height" value="1046" />
@@ -278,16 +275,15 @@
       <workItem from="1568736687267" duration="9063000" />
       <workItem from="1568817869414" duration="177000" />
       <workItem from="1568872752875" duration="2451000" />
-      <workItem from="1568880236483" duration="4301000" />
+      <workItem from="1568880236483" duration="4573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136156000" />
+    <option name="totallyTimeSpent" value="136428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2848411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -494,13 +490,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NMEA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+        <state relative-caret-position="468">
+          <caret line="317" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="317" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#circumcision#0;class#NMEA#0" />
             <element signature="method#timeConvert#0;class#NMEA#0" />
             <element signature="e#1147#1230#0" />
             <element signature="e#1256#1300#0" />
+            <element signature="method#date2#0;class#NMEA#0" />
             <element signature="e#1604#1648#0" />
             <element signature="method#gpgsvMethod#0;class#NMEA#0" />
             <element signature="method#glgsvMethod#0;class#NMEA#0" />
