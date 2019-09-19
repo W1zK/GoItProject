@@ -16,3 +16,30 @@ String str = res1[5];
         //        sTime = subStr[1];
         //        String delimeter = "\\.";
         //        subbStr = sTime.split(delimeter);
+
+
+
+        Метод конвертации времени через котыль
+        static String timeConvert(int index) {
+                String[] timeStr;
+                String delimeter = "\\.";
+                timeStr = subStr[index].split(delimeter);
+                subStr[index] = timeStr[0].replaceAll("(.{2})", "$1 ");
+                String[] result = subStr[index].split(" ");
+                long hours = subStr[index].equals("") ? 0 : Long.valueOf(result[0]);
+                long minutes = subStr[index].equals("") ? 0 : Long.valueOf(result[1]);
+                long seconds = subStr[index].equals("") ? 0 : Long.valueOf(result[2]);
+                long mSeconds = subStr[index].equals("") ? 0 : Long.valueOf(timeStr[1]);
+
+                return " " + hours + ":" + minutes + ":" + seconds + ":" + mSeconds;
+
+            }
+            Метод конвертации Date через котыль
+             static String dateTimer(int index) {
+                    subStr[index] = subStr[index].replaceAll("(.{2})", "$1 ");
+                    String[] result = subStr[index].split(" ");
+                    int day = result[0].equals("") ? 0 : Integer.valueOf(result[0]);
+                    int month = result[1].equals("") ? 0 : Integer.valueOf(result[1]);
+                    char arr[] = result[2].toCharArray();
+                    return "Date:" + day + "/" + month + "/" + arr[0] + arr[1];
+                }

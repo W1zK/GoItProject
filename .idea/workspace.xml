@@ -6,8 +6,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NMEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NMEA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shekerSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shekerSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/Zametki">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="508">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -42,12 +42,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NMEA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="155" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="493">
+              <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
               <folding>
                 <element signature="method#circumcision#0;class#NMEA#0" />
                 <element signature="method#timeConvert#0;class#NMEA#0" />
-                <element signature="method#dateTimer#0;class#NMEA#0" />
+                <element signature="e#1147#1230#0" />
+                <element signature="e#1256#1300#0" />
+                <element signature="e#1604#1648#0" />
                 <element signature="method#gpgsvMethod#0;class#NMEA#0" />
                 <element signature="method#glgsvMethod#0;class#NMEA#0" />
                 <element signature="method#gngllMethod#0;class#NMEA#0" />
@@ -56,6 +58,7 @@
                 <element signature="method#gnggaMethod#0;class#NMEA#0" />
                 <element signature="method#gngsaMethod#0;class#NMEA#0" />
                 <element signature="method#main#0;class#NMEA#0" />
+                <element signature="e#15147#15759#0" />
               </folding>
             </state>
           </provider>
@@ -111,10 +114,10 @@
         <option value="$PROJECT_DIR$/src/offline/obertki.java" />
         <option value="$PROJECT_DIR$/src/offline/sourve/utils.java" />
         <option value="$PROJECT_DIR$/src/offline/sourve/factorial.java" />
-        <option value="$PROJECT_DIR$/out/Zametki" />
         <option value="$PROJECT_DIR$/src/test.java" />
-        <option value="$PROJECT_DIR$/src/NMEA.java" />
         <option value="$PROJECT_DIR$/src/shekerSort.java" />
+        <option value="$PROJECT_DIR$/out/Zametki" />
+        <option value="$PROJECT_DIR$/src/NMEA.java" />
       </list>
     </option>
   </component>
@@ -138,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -167,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.shekerSort">
+  <component name="RunManager" selected="Application.NMEA">
     <configuration name="NMEA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NMEA" />
       <module name="GoItProject" />
@@ -245,8 +248,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.shekerSort" />
         <item itemvalue="Application.NMEA" />
+        <item itemvalue="Application.shekerSort" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.factorial" />
         <item itemvalue="Application.obertki" />
@@ -274,18 +277,19 @@
       <workItem from="1568715780767" duration="15870000" />
       <workItem from="1568736687267" duration="9063000" />
       <workItem from="1568817869414" duration="177000" />
-      <workItem from="1568872752875" duration="2112000" />
+      <workItem from="1568872752875" duration="2451000" />
+      <workItem from="1568880236483" duration="4301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131516000" />
+    <option name="totallyTimeSpent" value="136156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2811736" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2848411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,10 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/Zametki">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -474,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shekerSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -488,14 +485,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/Zametki">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NMEA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        <state relative-caret-position="493">
+          <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
           <folding>
             <element signature="method#circumcision#0;class#NMEA#0" />
             <element signature="method#timeConvert#0;class#NMEA#0" />
-            <element signature="method#dateTimer#0;class#NMEA#0" />
+            <element signature="e#1147#1230#0" />
+            <element signature="e#1256#1300#0" />
+            <element signature="e#1604#1648#0" />
             <element signature="method#gpgsvMethod#0;class#NMEA#0" />
             <element signature="method#glgsvMethod#0;class#NMEA#0" />
             <element signature="method#gngllMethod#0;class#NMEA#0" />
@@ -504,6 +510,7 @@
             <element signature="method#gnggaMethod#0;class#NMEA#0" />
             <element signature="method#gngsaMethod#0;class#NMEA#0" />
             <element signature="method#main#0;class#NMEA#0" />
+            <element signature="e#15147#15759#0" />
           </folding>
         </state>
       </provider>

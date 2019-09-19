@@ -1,3 +1,6 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class NMEA {
@@ -19,27 +22,26 @@ public class NMEA {
     }
 
     static String timeConvert(int index) {
-        String[] timeStr;
-        String delimeter = "\\.";
-        timeStr = subStr[index].split(delimeter);
-        subStr[index] = timeStr[0].replaceAll("(.{2})", "$1 ");
-        String[] result = subStr[index].split(" ");
-        long hours = subStr[index].equals("") ? 0 : Long.valueOf(result[0]);
-        long minutes = subStr[index].equals("") ? 0 : Long.valueOf(result[1]);
-        long seconds = subStr[index].equals("") ? 0 : Long.valueOf(result[2]);
-        long mSeconds = subStr[index].equals("") ? 0 : Long.valueOf(timeStr[1]);
-
-        return " " + hours + ":" + minutes + ":" + seconds + ":" + mSeconds;
-
+        Date time = null;
+        try {
+            time = new SimpleDateFormat("HHmmss.SSS").parse(subStr[index]);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        String timeToString = new SimpleDateFormat("HH:mm:ss:SS").format(time);
+        return timeToString;
     }
 
-    static String dateTimer(int index) {
-        subStr[index] = subStr[index].replaceAll("(.{2})", "$1 ");
-        String[] result = subStr[index].split(" ");
-        int day = result[0].equals("") ? 0 : Integer.valueOf(result[0]);
-        int month = result[1].equals("") ? 0 : Integer.valueOf(result[1]);
-        char arr[] = result[2].toCharArray();
-        return "Date:" + day + "/" + month + "/" + arr[0] + arr[1];
+    static String dateConvert(int index) {
+        Date date = null;
+        try {
+            date = new SimpleDateFormat("ddMMyy").parse(subStr[index]);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        String dateToString = new SimpleDateFormat("dd/MM/yyyy").format(date);
+        return dateToString;
+
     }
 
     static void gpgsvMethod() {
@@ -147,11 +149,11 @@ public class NMEA {
         char dir1 = subStr[4].equals("") ? '-' : subStr[4].charAt(0);
         char dataType = subStr[6].equals("") ? '-' : subStr[6].charAt(0);
 
-        System.out.println("Type of message(String):" + type + "\n" +
-                "Latitude(double,char):" + latitude + "," + dir + "\n" +
-                "Longitude(double,char):" + longitude + "," + dir1 + "\n" +
-                "Time registration hhmmss.sss(String(long)):" + timeConvert(5) + "\n" +
-                "Valid data(char):" + dataType);
+        System.out.println("Type of message(String):" + type +
+                "\nLatitude(double,char):" + latitude + "," + dir +
+                "\nLongitude(double,char):" + longitude + "," + dir1 +
+                "\nTime registration hhmmss.sss(String(long)):" + timeConvert(5) +
+                "\nValid data(char):" + dataType);
     }
 
     static void gnrmcMethod() {
@@ -169,15 +171,15 @@ public class NMEA {
         char mode = subStr[10].equals("") ? '-' : subStr[10].charAt(0);
 
 
-        System.out.println("Message type(String):" + type + "\n" +
-                "Time(String(long)):" + timeConvert(1) + "\n" +
-                "Status(char):" + status + "\n" +
-                "Latitude(double,char):" + lat + "," + dirLat + "\n" +
-                "Longitude(double,char):" + lon + "," + dirLon + "\n" +
-                "Speed(double):" + speed + "\n" +
-                "Course(double):" + course + "\n" +
-                "Date(long):" + dateTimer(9) + "\n" +
-                "Mode(char):" + mode);
+        System.out.println("Message type(String):" + type +
+                "\nTime(String(Date)):" + timeConvert(1) +
+                "\nStatus(char):" + status +
+                "\nLatitude(double,char):" + lat + "," + dirLat +
+                "\nLongitude(double,char):" + lon + "," + dirLon +
+                "\nSpeed(double):" + speed +
+                "\nCourse(double):" + course +
+                "\nDate(Date):" + dateConvert(9) +
+                "\nMode(char):" + mode);
     }
 
     static void gnvtgMethod() {
@@ -222,16 +224,16 @@ public class NMEA {
         String nothing = subStr[13];
         int dgpsId = subStr[14].equals("") ? 0 : Integer.valueOf(subStr[14]);
 
-        System.out.println("Message type(String):" + messType + "\n" +
-                "Time(String(long)):" + timeConvert(1) + "\n" +
-                "Latitude(double,char):" + lat + "," + dirLat + "\n" +
-                "Longitude(double,char):" + lon + "," + dirLon + "\n" +
-                "GPS indicate(int):" + gpsIndic + "\n" +
-                "Satellite used(int):" + satUsed + "\n" +
-                "Horizontal dilution of precision(double):" + hdop + "\n" +
-                "Altitude(double,char):" + altitude + m1 + "\n" +
-                "Geoidal Separation(double,char):" + geoSepar + m2 + "\n" +
-                "DGPS Station ID(int):" + dgpsId);
+        System.out.println("Message type(String):" + messType +
+                "\nTime(String(Date)):" + timeConvert(1) +
+                "\nLatitude(double,char):" + lat + "," + dirLat +
+                "\nLongitude(double,char):" + lon + "," + dirLon +
+                "\nGPS indicate(int):" + gpsIndic +
+                "\nSatellite used(int):" + satUsed +
+                "\nHorizontal dilution of precision(double):" + hdop +
+                "\nAltitude(double,char):" + altitude + m1 +
+                "\nGeoidal Separation(double,char):" + geoSepar + m2 +
+                "\nDGPS Station ID(int):" + dgpsId);
     }
 
     static void gngsaMethod() {
