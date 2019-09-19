@@ -1,13 +1,13 @@
 public class shekerSort {
     static int[] pool = {4,8,10,-41,51,75,22,156,0,777};
 
-    public static void cocktailSort(int[] pool) {
+    private static void cocktailSort(int[] pool) {
         int size = pool.length;
         int x = size - 1;
-        int swap = 1;
+        boolean swap = true;
 
-        while (size > x && swap > 0) {
-            swap = 0;
+        while (swap) {
+           swap = false;
 
             for (int i = x; i > size - 1 - x; i--) { //двигаемся справа налево
                 if (pool[i] < pool[i - 1]) {         // если следующий элемент меньше текущего,меняем!
@@ -15,7 +15,7 @@ public class shekerSort {
                     int temp = pool[i];
                     pool[i] = pool[i - 1];
                     pool[i - 1] = temp;
-                    swap = 1;
+                    swap = true;
                 }
             }
 
@@ -26,11 +26,11 @@ public class shekerSort {
                     int temp = pool[i];
                     pool[i] = pool[i + 1];
                     pool[i + 1] = temp;
-                    swap = 1;
+                    swap = true;
                 }
             }
 
-            if (swap==0){
+            if (!swap){
                 break;
             }
 
@@ -42,5 +42,6 @@ public class shekerSort {
         for (int i = 0; i <pool.length ; i++) {
             System.out.print(pool[i]+" ");
         }
+
     }
 }
