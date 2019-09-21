@@ -1,19 +1,33 @@
 package HomeWork4;
 
+import java.util.Scanner;
+
 public class Third {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите значение X:");
+        int x = scanner.nextInt();
+        drawRectangle(x);
 
-        getMax(3,9);
-        getMax(3.5f,9.2f);
     }
-    static void getMax(int x,int y){
+    static void drawRectangle(int s) {
+        for (int i = 0; i < s; i++) {
+            for (int j = 0; j < s; j++) {
+                System.out.print("+");
+            }
+            System.out.println();
+        }
 
-        int max = (x>y)?x:y;
-        System.out.println(max);
+
     }
-    static void getMax(float x,float y){
+    static void drawRectangle(int a, int b) {
 
-        float max = (x>y)?x:y;
-        System.out.println(max);
+        for (int i = 0; i < a; i++) {
+            for (int j = 0; j < b; j++) {
+                System.out.print("+");
+            }
+            System.out.println();
+        }
+
     }
 }

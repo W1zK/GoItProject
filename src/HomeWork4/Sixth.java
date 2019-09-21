@@ -7,9 +7,9 @@ public class Sixth {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите значение X:");
+        System.out.print("Введите значение высоты:");
         int x = scanner.nextInt();
-        System.out.print("Введите значение Y:");
+        System.out.print("Введите значение шырины:");
         y = scanner.nextInt();
 
         draw(x, y);
