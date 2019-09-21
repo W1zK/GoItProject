@@ -1,8 +1,61 @@
+import java.util.Scanner;
+
 //import java.text.ParseException;
 //import java.text.SimpleDateFormat;
 //import java.util.Date;
 //
-//public class test {
+public class test {
+    public static void main(String[] args) {
+        int h = 9, w = 6;
+
+        drawRectangle(h, w);
+        drawRectangle(h);
+    }
+
+    /**
+     * Draws square with side H
+     */
+    private static void drawRectangle(int h) {
+        drawRectangle(h, h);
+    }
+
+    /**
+     * draws rectangle with width W and heights H
+     */
+    private static void drawRectangle(int h, int w) {
+        char filling = 43;
+        for (int i = 0; i < h; i++) {
+            for (int j = 0; j < w; j++) {
+                System.out.print(filling);
+            }
+            System.out.println();
+        }
+    }
+//    public static void main(String[] args) {
+//        System.out.print("Введіть число: ");
+//        Scanner input = new Scanner(System.in);
+//        int value = input.nextInt();
+//
+//        printValue(value);
+//    }
+//
+//    //  function for recursion, do same as Task1
+//    private static void printValue(int value) {
+//
+//        switch (value){
+//            case 1:
+//                System.out.println(value);
+//                break;
+//                default:printValue(value - 1);
+//                    System.out.println(value);
+//        }
+//        if(value==1){
+//            System.out.println(value);
+//        }else {
+//            printValue(value-1);
+//            System.out.println(value);
+//        }
+//    }
 //    public static void main(String[] args) {
 //        String sTime;
 //        String subbStr;
@@ -42,4 +95,4 @@
 //
 //    return date;
 //}
-//}
+}
