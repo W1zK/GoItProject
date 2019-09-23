@@ -3,18 +3,37 @@ package HomeWork4;
 import java.util.Scanner;
 
 public class Fourth {
-    public static void main(String[] args) {
-        getMax(3,9);
-        getMax(3.5f,9.2f);
-    }
-    static void getMax(int x,int y){
+    public static void main() {
+        int x;
+        int y;
+        float z;
+        float w;
 
-        int max = (x>y)?x:y;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите ПАРУ чисел(int или float) которые хотите сравнить:" +
+                        "\nЧисло №1:");
+        String firsNum = scanner.nextLine();
+        System.out.println("Число №2:");
+        String secondNum = scanner.next();
+        if (!firsNum.contains(".")&&!secondNum.contains(".")){
+            x = Integer.parseInt(firsNum);
+            y = Integer.parseInt(secondNum);
+            getMax(x,y);
+        }else {
+            z = Float.parseFloat(firsNum);
+            w = Float.parseFloat(secondNum);
+            getMax(z,w);
+        }
+
+    }
+    static void getMax(int velue1,int velue2){
+
+        int max = (velue1>velue2)?velue1:velue2;
         System.out.println(max);
     }
-    static void getMax(float x,float y){
+    static void getMax(float velue1,float velue2){
 
-        float max = (x>y)?x:y;
+        float max = (velue1>velue2)?velue1:velue2;
         System.out.println(max);
     }
 }

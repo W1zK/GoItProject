@@ -3,10 +3,10 @@ package HomeWork4;
 import java.util.Scanner;
 
 public class Fifth {
-    public static void main(String[] args) {
+    public static void main() {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите число:");
+        System.out.print("Введите число X:");
         int x = scanner.nextInt();
         recurs(x);
     }

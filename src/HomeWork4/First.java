@@ -1,11 +1,15 @@
 package HomeWork4;
 
+import java.util.Scanner;
+
 public class First {
-    public static void main(String[] args) {
-        int x = 7;
+    public static void main() {
+        Scanner scaner = new Scanner(System.in);
+        System.out.print("Введите число X:");
+        int x = scaner.nextInt();
         for (int i = 1; i <= x; i++) {
 
-            System.out.println("1-7 result:" + i);
+            System.out.println(i);
         }
 
 
