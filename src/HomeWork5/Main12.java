@@ -9,20 +9,43 @@ public class Main12 {
     static private void delPoint1(double[] dot) {
 
         for (int i = 0; i < dot.length; i++) {
-            int k = 0;
+            int k = 1;
             if (dot[i] >= 0) {
                 System.out.println(dot[i] + "фигура опуклая");
-            } else if (dot[i] < 0||i==dot.length-1) {
-                point[k] = point[k + 1];
+            } else if (dot[i] < 0 || i == dot.length - 1) {
+                point[k+1].setX(point[k].getX());
 
-            } else if (dot[i]<0||i!=dot.length-1){
-                point[i]=point[i+1];
+
+            } else if (dot[i] < 0 || i != dot.length - 1) {
+                point[i+1] = point[i];
             }
+
+        }
+        for (int i = 0; i < derivative.length; i++) {
+            System.out.println(point[i]+"+"+point[i].getX()+"  "+point[i].getY());
 
         }
 
 
     }
+
+//    static private void delPoint2(double[] dot) {
+//
+//        for (int i = 0; i < dot.length; i++) {
+//            int k = 0;
+//            if (dot[i] < 0 || i == dot.length - 1) {
+//                point[k] = point[k + 1];
+//            } else if (dot[i] < 0 || i != dot.length - 1) {
+//                point[i] = point[i + 1];
+//
+//            } else break;
+//        }
+//        for (int i = 0; i < derivative.length; i++) {
+//            System.out.println(derivative[i]);
+//
+//        }
+//
+//    }
 
 
     static private void cVector() {
@@ -33,8 +56,6 @@ public class Main12 {
         }
 
     }
-
-
 
 
     static private void cDerivative() {
@@ -65,6 +86,11 @@ public class Main12 {
 
         cVector();
         cDerivative();
+
+        for (int i = 0; i < derivative.length; i++) {
+            System.out.println(derivative[i]);
+
+        }
 
 
     }
