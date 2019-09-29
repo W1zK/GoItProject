@@ -19,47 +19,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="92" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="285">
+              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+              <folding>
+                <element signature="method#checker#0;class#Main#0" />
+                <element signature="e#352#444#1" />
+                <element signature="e#389#434#1" />
+                <element signature="e#464#655#1" />
+                <element signature="e#578#645#1" />
+                <element signature="method#delPoint1#0;class#Main#0" />
+                <element signature="e#759#1113#1" />
+                <element signature="e#815#1103#1" />
+                <element signature="e#858#958#1" />
+                <element signature="e#989#1089#1" />
+                <element signature="method#cVector#0;class#Main#0" />
+                <element signature="e#1218#1481#1" />
+                <element signature="e#1259#1382#1" />
+                <element signature="method#cDerivative#0;class#Main#0" />
+                <element signature="e#1623#1877#1" />
+                <element signature="e#1661#1783#1" />
+                <element signature="method#main#0;class#Main#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main12.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main123.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork5/Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding>
                 <element signature="e#369#370#0" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
                 <element signature="e#445#446#0" expanded="true" />
               </folding>
             </state>
@@ -69,26 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork5/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="225">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
                 <element signature="e#331#332#0" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
                 <element signature="e#394#395#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomeWork5/test1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="40" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -172,15 +156,15 @@
         <option value="$PROJECT_DIR$/src/offline/Object/Animal.java" />
         <option value="$PROJECT_DIR$/src/HomeWork5/Line.java" />
         <option value="$PROJECT_DIR$/src/HomeWork5/Segment.java" />
-        <option value="$PROJECT_DIR$/src/HomeWork5/Vector.java" />
-        <option value="$PROJECT_DIR$/src/HomeWork5/Main.java" />
         <option value="$PROJECT_DIR$/src/HomeWork5/Main1.java" />
         <option value="$PROJECT_DIR$/src/test1.java" />
         <option value="$PROJECT_DIR$/src/HomeWork5/test1.java" />
-        <option value="$PROJECT_DIR$/src/HomeWork5/Main123.java" />
         <option value="$PROJECT_DIR$/src/ont.java" />
         <option value="$PROJECT_DIR$/src/HomeWork5/Point.java" />
         <option value="$PROJECT_DIR$/src/HomeWork5/Main12.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Main123.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Main.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Vector.java" />
       </list>
     </option>
   </component>
@@ -240,6 +224,15 @@
               <item name="offline" type="462c0819:PsiDirectoryNode" />
               <item name="Object" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -276,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main12">
+  <component name="RunManager" selected="Application.Main123">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork5.Main" />
       <module name="GoItProject" />
@@ -316,6 +309,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork5.Main123" />
+      <module name="GoItProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Seventh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork4.Seventh" />
       <module name="GoItProject" />
@@ -329,26 +335,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="GoItProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main123" />
         <item itemvalue="Application.Main12" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Seventh" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -386,16 +379,24 @@
       <workItem from="1569750261445" duration="1786000" />
       <workItem from="1569752112304" duration="1784000" />
       <workItem from="1569754150590" duration="1785000" />
+      <workItem from="1569755979893" duration="1782000" />
+      <workItem from="1569757793736" duration="1613000" />
+      <workItem from="1569759617510" duration="2013000" />
+      <workItem from="1569761733057" duration="1785000" />
+      <workItem from="1569763562521" duration="1813000" />
+      <workItem from="1569765413600" duration="1780000" />
+      <workItem from="1569767231154" duration="1766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213048000" />
+    <option name="totallyTimeSpent" value="225600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20490928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22038421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -427,7 +428,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20277481" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20704375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,15 +504,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
-          <line>18</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
-          <line>27</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -733,13 +740,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ont.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="92" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="92" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/test1.java" />
     <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -747,22 +755,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Vector.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1365">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork5/test1.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" selection-end-line="52" />
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -780,40 +792,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ont.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main123.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="285">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
           <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="method#checker#0;class#Main#0" />
+            <element signature="e#352#444#1" />
+            <element signature="e#389#434#1" />
+            <element signature="e#464#655#1" />
+            <element signature="e#578#645#1" />
+            <element signature="method#delPoint1#0;class#Main#0" />
+            <element signature="e#759#1113#1" />
+            <element signature="e#815#1103#1" />
+            <element signature="e#858#958#1" />
+            <element signature="e#989#1089#1" />
+            <element signature="method#cVector#0;class#Main#0" />
+            <element signature="e#1218#1481#1" />
+            <element signature="e#1259#1382#1" />
+            <element signature="method#cDerivative#0;class#Main#0" />
+            <element signature="e#1623#1877#1" />
+            <element signature="e#1661#1783#1" />
+            <element signature="method#main#0;class#Main#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main123.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

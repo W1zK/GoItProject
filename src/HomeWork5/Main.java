@@ -2,52 +2,75 @@ package HomeWork5;
 
 public class Main {
 
+    static private Point[] point = new Point[7];
+    static private Vector[] vector = new Vector[point.length];
+    static private double[] derivative = new double[vector.length];
+    static private boolean check = false;
+
+    static private void checker() {
+        for (int i = 0; i < derivative.length; i++) {
+            if (derivative[i] > 0) {
+                check = true;
+            }
+        }
+        if (check) {
+            System.out.println("!!!Фигура Опуклая!!!");
+            for (int i = 0; i < derivative.length; i++) {
+                System.out.println(derivative[i]);
+
+            }
+        }
+    }
+
+    static private void delPoint1(double[] dot) {
+
+        for (int i = 0; i < dot.length; i++) {
+            int k = 0;
+            while (dot[i] < 0) {
+                if (i == dot.length - 1) {
+                    point[k + 1] = point[k];
+                    cVector(point);
+                } else if (i != dot.length - 1) {
+                    point[i + 1] = point[i];
+                    cVector(point);
+                }
+            }
+        }
+    }
+
+
+    static private void cVector(Point[] pnt) {
+
+        for (int i = 0; i < vector.length; i++) {
+            if (i < vector.length - 1) {
+                vector[i] = new Vector(pnt[i].getX(), pnt[i + 1].getX(), pnt[i].getY(), pnt[i + 1].getY());
+            } else vector[i] = new Vector(pnt[i].getX(), pnt[0].getX(), pnt[i].getY(), pnt[0].getY());
+        }
+        cDerivative(vector);
+    }
+
+
+    static private void cDerivative(Vector[] vek) {
+        for (int i = 0; i < derivative.length; i++) {
+            if (i < vek.length - 1) {
+                derivative[i] = (vek[i].getA() * vek[i + 1].getB()) - (vek[i].getB() * vek[i + 1].getA());
+            } else derivative[i] = vek[i].getA() * vek[0].getB() - vek[i].getB() * vek[0].getA();
+        }
+        delPoint1(derivative);
+    }
+
     public static void main(String[] args) {
 
+        point[0] = new Point(-1.5, 1.5);
+        point[1] = new Point(-4, 2);
+        point[2] = new Point(-2.5, -1.5);
+        point[3] = new Point(0.5, -2.5);
+        point[4] = new Point(1.5, -0.5);
+        point[5] = new Point(1, 1);
+        point[6] = new Point(-0.5, 4);
 
-        double derivative1;
-        double derivative2;
-        double derivative3;
-        double derivative4;
-        double derivative5;
-        double derivative6;
-        double derivative7;
-
-
-        Point point1 = new Point(-2,3);
-        Point point2 = new Point(-3,1);
-        Point point3 = new Point(-2,-1);
-        Point point4 = new Point(-0.5,-1);
-        Point point5 = new Point(1,-1);
-        Point point6 = new Point(1,1);
-        Point point7 = new Point(-0.5,0.5);
-
-
-
-        Vector vector1 =new Vector(point1.getX(),point2.getX(),point1.getY(),point2.getY());
-        Vector vector2 =new Vector(point2.getX(),point3.getX(),point2.getY(),point3.getY());
-        Vector vector3 =new Vector(point3.getX(),point4.getX(),point3.getY(),point4.getY());
-        Vector vector4 =new Vector(point4.getX(),point5.getX(),point4.getY(),point5.getY());
-        Vector vector5 =new Vector(point5.getX(),point6.getX(),point5.getY(),point6.getY());
-        Vector vector6 =new Vector(point6.getX(),point7.getX(),point6.getY(),point7.getY());
-        Vector vector7 =new Vector(point7.getX(),point1.getX(),point7.getY(),point1.getY());
-
-
-
-        derivative1 = vector1.getA()*vector2.getB()-vector1.getB()*vector2.getA();
-        derivative2 = vector2.getA()*vector3.getB()-vector2.getB()*vector3.getA();
-        derivative3 = vector3.getA()*vector4.getB()-vector3.getB()*vector4.getA();
-        derivative4 = vector4.getA()*vector5.getB()-vector4.getB()*vector5.getA();
-        derivative5 = vector5.getA()*vector6.getB()-vector5.getB()*vector6.getA();
-        derivative6 = vector6.getA()*vector7.getB()-vector6.getB()*vector7.getA();
-        derivative7 = vector7.getA()*vector1.getB()-vector7.getB()*vector1.getA();
-
-
-
-
-
-        System.out.println(derivative1+" "+derivative2+" "+derivative3+" "+derivative4+" "+derivative5+" "+derivative6+" "+derivative7);
-
+        cVector(point);
+        checker();
     }
 
 

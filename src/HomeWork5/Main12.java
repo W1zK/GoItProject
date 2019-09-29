@@ -9,22 +9,23 @@ public class Main12 {
     static private void delPoint1(double[] dot) {
 
         for (int i = 0; i < dot.length; i++) {
-            int k = 1;
+            int k = 0;
             if (dot[i] >= 0) {
-                System.out.println(dot[i] + "фигура опуклая");
+
             } else if (dot[i] < 0 || i == dot.length - 1) {
-                point[k+1].setX(point[k].getX());
-
-
+                point[k+1]=point[k];
+                cVector(point);
             } else if (dot[i] < 0 || i != dot.length - 1) {
                 point[i+1] = point[i];
-            }
+                cVector(point);
+            }else break;
 
         }
-        for (int i = 0; i < derivative.length; i++) {
-            System.out.println(point[i]+"+"+point[i].getX()+"  "+point[i].getY());
 
-        }
+//        for (int i = 0; i < derivative.length; i++) {
+//            System.out.println(point[i]+"+"+point[i].getX()+"  "+point[i].getY());
+//
+//        }
 
 
     }
@@ -48,26 +49,31 @@ public class Main12 {
 //    }
 
 
-    static private void cVector() {
+    static private void cVector(Point[] pnt) {
         for (int i = 0; i < vector.length; i++) {
             if (i < vector.length - 1) {
-                vector[i] = new Vector(point[i].getX(), point[i + 1].getX(), point[i].getY(), point[i + 1].getY());
-            } else vector[i] = new Vector(point[i].getX(), point[0].getX(), point[i].getY(), point[0].getY());
+                vector[i] = new Vector(pnt[i].getX(), pnt[i + 1].getX(), pnt[i].getY(), pnt[i + 1].getY());
+            } else vector[i] = new Vector(pnt[i].getX(), pnt[0].getX(), pnt[i].getY(), pnt[0].getY());
         }
+        cDerivative(vector);
 
     }
 
 
-    static private void cDerivative() {
+    static private void cDerivative(Vector[] vek) {
         for (int i = 0; i < derivative.length; i++) {
-            if (i < vector.length - 1) {
-                derivative[i] = vector[i].getA() * vector[i + 1].getB() - vector[i].getB() * vector[i + 1].getA();
-            } else derivative[i] = vector[i].getA() * vector[0].getB() - vector[i].getB() * vector[0].getA();
+            if (i < vek.length - 1) {
+                derivative[i] = vek[i].getA() * vek[i + 1].getB() - vek[i].getB() * vek[i + 1].getA();
+            } else derivative[i] = vek[i].getA() * vek[0].getB() - vek[i].getB() * vek[0].getA();
         }
         for (int i = 0; i < derivative.length; i++) {
             System.out.println(derivative[i]);
-
+            }
+        System.out.println("----------------------------------------");
+        for (int i = 0; i <point.length ; i++) {
+            System.out.println(point[i].getX()+" "+point[i].getY());
         }
+        System.out.println("==========================================");
 
         delPoint1(derivative);
     }
@@ -84,11 +90,17 @@ public class Main12 {
         point[6] = new Point(-0.5, 4);
 
 
-        cVector();
-        cDerivative();
+
+
+
+
+
+        cVector(point);
+
+
 
         for (int i = 0; i < derivative.length; i++) {
-            System.out.println(derivative[i]);
+            System.out.println(derivative[i]+"+");
 
         }
 
