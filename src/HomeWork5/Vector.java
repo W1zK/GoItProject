@@ -4,7 +4,6 @@ class Vector {
     private double a;
     private double b;
 
-
     public Vector(double x, double x1,double y,double y1) {
 
         this.a=x1-x;
