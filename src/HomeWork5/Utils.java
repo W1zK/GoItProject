@@ -1,18 +1,18 @@
 package HomeWork5;
 
-public class Utils {
+class Utils {
 
-    static private Point[] point = new Point[7];
-    static private Point pointArtil = new Point(6,3);
-    static private Point[] sourcePoint = new Point[point.length];
-    static private Point[] allPoint = new Point[point.length*2];
-    static private Vector[] vector = new Vector[point.length];
-    static private double[] derivative = new double[vector.length];
-    static private double[] distance = new double[allPoint.length];
-    static private boolean check = false;
+    private Point[] point = new Point[7];
+    private Point pointArtil = new Point(6,3);
+    private Point[] sourcePoint = new Point[point.length];
+    private Point[] allPoint = new Point[point.length*2];
+    private Vector[] vector = new Vector[point.length];
+    private double[] derivative = new double[vector.length];
+    private double[] distance = new double[allPoint.length];
+    private boolean check = false;
 
 
-    static void run(){
+    void run(){
         point[0] = new Point(-1.5, 1.5);
         point[1] = new Point(-4, 2);
         point[2] = new Point(-2.5, -1.5);
@@ -20,12 +20,11 @@ public class Utils {
         point[4] = new Point(1.5, -0.5);
         point[5] = new Point(1, 1);
         point[6] = new Point(-0.5, 4);
-        show();
-        //cVector(point);
-        //checker();
+        cVector(point);
+        checker();
     }
 
-    static private void checker() {
+    private void checker() {
         for (int i = 0; i < derivative.length; i++) {
             if (derivative[i] > 0) {
                 check = true;
@@ -37,10 +36,11 @@ public class Utils {
                 System.out.println(derivative[i]);
 
             }
+            show();
         }
     }
 
-    static private void delPoint1(double[] dot) {
+    private void delPoint1(double[] dot) {
 
         for (int i = 0; i < dot.length; i++) {
             int k = 0;
@@ -56,7 +56,7 @@ public class Utils {
         }
     }
 
-    static private void cVector(Point[] pnt) {
+    private void cVector(Point[] pnt) {
 
         for (int i = 0; i < vector.length; i++) {
             if (i < vector.length - 1) {
@@ -66,7 +66,7 @@ public class Utils {
         cDerivative(vector);
     }
 
-    static private void cDerivative(Vector[] vek) {
+    private void cDerivative(Vector[] vek) {
         for (int i = 0; i < derivative.length; i++) {
             if (i < vek.length - 1) {
                 derivative[i] = (vek[i].getA() * vek[i + 1].getB()) - (vek[i].getB() * vek[i + 1].getA());
@@ -77,7 +77,7 @@ public class Utils {
 
     ////////////////////////////////////////////////////////
 
-    static private void sourcePoints(Point[] source){
+    private void sourcePoints(Point[] source){
 
         for (int i = 0; i <point.length ; i++) {
             if (i<source.length-1){
@@ -90,7 +90,7 @@ public class Utils {
 
     }
 
-    static private void simbios(Point[] mass1,Point[] mass2){
+    private void simbios(Point[] mass1,Point[] mass2){
         int j = 0;
         for (int i = 0; i <allPoint.length ; i++) {
             if (i<=point.length-1){
@@ -101,35 +101,31 @@ public class Utils {
 
     }
 
-    static private void length(Point[] dot){
+    private void length(Point dot,Point[] spray){
         for (int i = 0; i <distance.length ; i++) {
-            distance[i]= Math.sqrt(Math.pow(pointArtil.getX()-allPoint[i].getX(),2)+ Math.pow(pointArtil.getY()-allPoint[i].getY(),2));
+            distance[i]= Math.sqrt(Math.pow(dot.getX()-spray[i].getX(),2)+ Math.pow(dot.getY()-spray[i].getY(),2));
 
         }
 
     }
 
-    static void show(){
+    private void distantPoint(){
+        double average = 0;
+        if (distance.length > 0)
+        {
+            double sum = 0;
+            for (int j = 0; j < distance.length; j++) {
+                sum += distance[j];
+            }
+            average = sum / distance.length;
+        }
+    }
+
+    private void show(){
         sourcePoints(point);
         simbios(point,sourcePoint);
-        length(allPoint);
+        length(pointArtil,allPoint);
 
-        for (int i = 0; i <point.length ; i++) {
-            System.out.println(point[i].getX()+":"+point[i].getY());
-
-        }
-
-        System.out.println("================");
-        for (int i = 0; i <sourcePoint.length ; i++) {
-            System.out.println(sourcePoint[i].getX()+":"+sourcePoint[i].getY());
-
-        }
-        System.out.println("================");
-        for (int i = 0; i <allPoint.length ; i++) {
-            System.out.println(allPoint[i].getX()+":"+allPoint[i].getY());
-
-        }
-        System.out.println("================");
         for (int i = 0; i <allPoint.length ; i++) {
             System.out.println(distance[i]);
 
