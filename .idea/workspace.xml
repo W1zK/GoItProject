@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb18980-408a-4c98-a84d-40e24340c398" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/offline/nasledovanie/Animal1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/offline/nasledovanie/Cat.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/offline/nasledovanie/Main.java" afterDir="false" />
@@ -29,6 +30,16 @@
       <change beforePath="$PROJECT_DIR$/src/HomeWork5/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork5/Segment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork5/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork5/Vector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/offline/Object/Animal.java" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/Home5/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home5/MainScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home5/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home5/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home5/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork5/MainScaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +50,82 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Home5/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Home5/MainScanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+              <folding>
+                <element signature="method#checker#0;class#MainScanner#0" />
+                <element signature="e#355#447#1" />
+                <element signature="e#392#437#1" />
+                <element signature="e#467#658#1" />
+                <element signature="e#581#648#1" />
+                <element signature="method#delPoint1#0;class#MainScanner#0" />
+                <element signature="e#762#1116#1" />
+                <element signature="e#818#1106#1" />
+                <element signature="e#861#961#1" />
+                <element signature="e#992#1092#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Home5/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Home5/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="39" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Home5/Segment.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Home5/Line.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+>>>>>>> origin/master
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -50,6 +137,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/BinaryCalc1.java" />
+        <option value="$PROJECT_DIR$/src/BinaryCalc.java" />
+        <option value="$PROJECT_DIR$/src/MainCalc.java" />
+        <option value="$PROJECT_DIR$/src/offline/IfForExamle.java" />
+        <option value="$PROJECT_DIR$/src/offline/Calendar.java" />
+        <option value="$PROJECT_DIR$/src/offline/ternarOperators.java" />
+        <option value="$PROJECT_DIR$/src/CalcCase.java" />
+        <option value="$PROJECT_DIR$/src/shaiker.java" />
+        <option value="$PROJECT_DIR$/src/coctailSort.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/offline/MhetodsPeregruzka.java" />
+        <option value="$PROJECT_DIR$/src/offline/first.java" />
+        <option value="$PROJECT_DIR$/src/offline/utils.java" />
+        <option value="$PROJECT_DIR$/src/offline/obertki.java" />
+        <option value="$PROJECT_DIR$/src/offline/sourve/utils.java" />
+        <option value="$PROJECT_DIR$/src/offline/sourve/factorial.java" />
+        <option value="$PROJECT_DIR$/src/shekerSort.java" />
+        <option value="$PROJECT_DIR$/out/Zametki" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/First.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/Fifth.java" />
+        <option value="$PROJECT_DIR$/src/NMEA.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/Sixth.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/Second.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/Third.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/Seventh_2.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/test1.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/Seventh.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/Fourth.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork4/test.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/offline/class_6.java" />
+        <option value="$PROJECT_DIR$/src/offline/Object/Cat.java" />
+        <option value="$PROJECT_DIR$/src/offline/Object/class_6.java" />
+        <option value="$PROJECT_DIR$/src/offline/Object/Animal.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Line.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Segment.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Main1.java" />
+        <option value="$PROJECT_DIR$/src/test1.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/test1.java" />
+        <option value="$PROJECT_DIR$/src/ont.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Main12.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Main123.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Main.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Vector.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Point.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/MainScaner.java" />
+        <option value="$PROJECT_DIR$/src/Home5/Line.java" />
+        <option value="$PROJECT_DIR$/src/Home5/Main.java" />
+        <option value="$PROJECT_DIR$/src/Home5/MainScanner.java" />
+        <option value="$PROJECT_DIR$/src/Home5/Vector.java" />
+      </list>
+    </option>
+  </component>
+>>>>>>> origin/master
   <component name="InstancesTracker">
     <option name="classes">
       <map>
@@ -61,25 +207,83 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Home5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork5" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+>>>>>>> origin/master
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/offline/nasledovanieP" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Home5" />
+>>>>>>> origin/master
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+<<<<<<< HEAD
       <recent name="offline.nasledovanieP" />
+=======
+      <recent name="Home5" />
+>>>>>>> origin/master
       <recent name="HomeWork5" />
       <recent name="HomeWork4" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/src/offline/nasledovanieP" />
       <recent name="$PROJECT_DIR$/src/offline" />
+=======
+      <recent name="D:\IdeaProjects\GoIt\GoItProject\src\Home5" />
+      <recent name="D:\IdeaProjects\GoIt\GoItProject\src" />
+>>>>>>> origin/master
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,9 +298,15 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offline.nasledovanieP.Main" />
+=======
+  <component name="RunManager" selected="Application.MainScanner">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork5.Main1" />
+>>>>>>> origin/master
       <module name="GoItProject" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +318,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offline.praktika.Main" />
+=======
+    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork5.Main12" />
+>>>>>>> origin/master
       <module name="GoItProject" />
       <extension name="coverage">
         <pattern>
@@ -121,6 +336,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offline.nasledovanie.Main" />
       <module name="GoItProject" />
@@ -136,6 +352,10 @@
     </configuration>
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork5.Main1" />
+=======
+    <configuration name="Main123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork5.Main123" />
+>>>>>>> origin/master
       <module name="GoItProject" />
       <extension name="coverage">
         <pattern>
@@ -147,12 +367,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork5.Main12" />
+=======
+    <configuration name="MainScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home5.MainScanner" />
+>>>>>>> origin/master
       <module name="GoItProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork5.*" />
+          <option name="PATTERN" value="Home5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +385,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Main123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork5.Main123" />
       <module name="GoItProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HomeWork5.*" />
+=======
+    <configuration name="Vector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home5.Vector" />
+      <module name="GoItProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home5.*" />
+>>>>>>> origin/master
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +409,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main123" />
         <item itemvalue="Application.Main12" />
+=======
+        <item itemvalue="Application.MainScanner" />
+        <item itemvalue="Application.Vector" />
+        <item itemvalue="Application.Main123" />
+        <item itemvalue="Application.Main12" />
+        <item itemvalue="Application.Main1" />
+>>>>>>> origin/master
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +467,7 @@
       <workItem from="1569765413600" duration="1780000" />
       <workItem from="1569767231154" duration="1766000" />
       <workItem from="1569769068581" duration="135000" />
+<<<<<<< HEAD
       <workItem from="1569869095894" duration="1227000" />
       <workItem from="1570638047113" duration="304000" />
       <workItem from="1570639510770" duration="4202000" />
@@ -233,6 +476,82 @@
     </task>
     <servers />
   </component>
+=======
+      <workItem from="1570100284066" duration="9060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="234795000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22555012" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24972005" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39641657" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32540542" />
+      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32922733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20704375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24972972" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39675677" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32540542" />
+      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32922733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+>>>>>>> origin/master
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -262,7 +581,333 @@
           <line>16</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
+<<<<<<< HEAD
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Main12.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Home5/MainScanner.java</url>
+          <line>53</line>
+          <properties class="Home5.MainScanner" method="cDerivative">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Home5/MainScanner.java</url>
+          <line>41</line>
+          <properties class="Home5.MainScanner" method="cVector">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/offline/Calendar.java" />
+    <entry file="file://$PROJECT_DIR$/src/CalcCase.java" />
+    <entry file="jar:///opt/java/jdk1.8.0_221/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/shaiker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/IfForExamle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/MhetodsPeregruzka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="method#show#0;class#MhetodsPeregruzka#0" />
+            <element signature="method#show#1;class#MhetodsPeregruzka#0" />
+            <element signature="e#365#419#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/second.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/first.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/sourve/utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/obertki.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/PrintStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/offline/ternarOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Date.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/sourve/factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/Zametki">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork4/Fifth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork4/Sixth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NMEA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="317" column="5" lean-forward="true" selection-start-line="317" selection-start-column="5" selection-end-line="317" selection-end-column="5" />
+          <folding>
+            <element signature="method#circumcision#0;class#NMEA#0" />
+            <element signature="method#timeConvert#0;class#NMEA#0" />
+            <element signature="method#dateConvert#0;class#NMEA#0" />
+            <element signature="method#gpgsvMethod#0;class#NMEA#0" />
+            <element signature="method#glgsvMethod#0;class#NMEA#0" />
+            <element signature="method#gngllMethod#0;class#NMEA#0" />
+            <element signature="method#gnrmcMethod#0;class#NMEA#0" />
+            <element signature="method#gnvtgMethod#0;class#NMEA#0" />
+            <element signature="method#gngsaMethod#0;class#NMEA#0" />
+            <element signature="method#main#0;class#NMEA#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_221/src.zip!/java/lang/Integer.java" />
+    <entry file="file://$PROJECT_DIR$/src/Seventh_2.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork4/First.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork4/Second.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork4/Seventh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork4/Third.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork4/Fourth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offline/Object/class_6.java" />
+    <entry file="file://$PROJECT_DIR$/src/offline/Object/Animal.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
+    <entry file="file://$PROJECT_DIR$/src/shekerSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ont.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main1.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main12.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main123.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Line.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Segment.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Vector.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Point.java" />
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home5/Line.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Segment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/MainScaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="39" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/MainScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="method#checker#0;class#MainScanner#0" />
+            <element signature="e#355#447#1" />
+            <element signature="e#392#437#1" />
+            <element signature="e#467#658#1" />
+            <element signature="e#581#648#1" />
+            <element signature="method#delPoint1#0;class#MainScanner#0" />
+            <element signature="e#762#1116#1" />
+            <element signature="e#818#1106#1" />
+            <element signature="e#861#961#1" />
+            <element signature="e#992#1092#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+>>>>>>> origin/master
 </project>
