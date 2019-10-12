@@ -1,6 +1,6 @@
 package offline.nasledovanie;
 
-class Animal {
+class Animal1 {
     private String name;
     public int age;
     {
@@ -18,7 +18,7 @@ class Animal {
         this.age = age;
     }
 
-    public Animal(String name, int age) {
+    public Animal1(String name, int age) {
         this.name = name;
         this.age = age;
     }

@@ -1,14 +1,16 @@
+package offline.nasledovanieP;
+
 public class Main {
     public static void main(String[] args) {
-        Animal[] animals = new Animal[4];
-        animals[0] = new Cat("kot1",1);
-        animals[1] = new Cat("kot2",5);
-        animals[2] = new Animal("animal",5);
-        animals[3] = new Dog("dog",5);
+        MakeNoize[] noizes = new MakeNoize[4];
+        noizes[0] = new Cat("kot1",1);
+        noizes[1] = new Car();
+        noizes[2] = new Animal("animal",5);
+        noizes[3] = new Dog("dog",5);
 
-        for (int i = 0; i < animals.length; i++) {
-            animals[i].show();
-            //System.out.println(animals[i].getName());
+        for (int i = 0; i < noizes.length; i++) {
+            noizes[i].toNoize();
+            //System.out.println(noizes[i].getName());
         }
     }
 }

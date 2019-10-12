@@ -1,6 +1,6 @@
-package offline.nasledovanie;
+package offline.nasledovanieP;
 
-class Animal {
+class Animal implements MakeNoize{
     private String name;
     public int age;
     {
@@ -33,5 +33,11 @@ class Animal {
 
     public int getAge() {
         return age;
+    }
+
+    @Override
+    public void toNoize() {
+        System.out.println("voize");
+
     }
 }
