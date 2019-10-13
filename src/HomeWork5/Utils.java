@@ -1,15 +1,26 @@
 package HomeWork5;
 
-class Utils {
+import java.util.ArrayList;
 
-    private Point[] point = new Point[7];
-    private Point pointArtil = new Point(6,3);
+class Utils {
+    private int k;
+    private int n;
+    private  double average = 0; //midl distance
+    private Point[] point = new Point[7]; //point arr
+    private Point pointArtil = new Point(6,3); //artilery
     private Point[] sourcePoint = new Point[point.length];
     private Point[] allPoint = new Point[point.length*2];
+    private ArrayList<Integer> fPoint = new ArrayList<Integer>(); //bigerThenMidl
+    private ArrayList<Integer> cPoint = new ArrayList<Integer>();
     private Vector[] vector = new Vector[point.length];
     private double[] derivative = new double[vector.length];
     private double[] distance = new double[allPoint.length];
     private boolean check = false;
+    private Line[] lineMath = new Line[allPoint.length]; // AllLineCross
+    private Line[] clothLineMath;
+    private Line[] trapLine;
+
+
 
 
     void run(){
@@ -20,8 +31,10 @@ class Utils {
         point[4] = new Point(1.5, -0.5);
         point[5] = new Point(1, 1);
         point[6] = new Point(-0.5, 4);
-        cVector(point);
-        checker();
+        //cVector(point);
+        //checker();
+        show();
+
     }
 
     private void checker() {
@@ -109,27 +122,108 @@ class Utils {
 
     }
 
-    private void distantPoint(){
-        double average = 0;
-        if (distance.length > 0)
-        {
-            double sum = 0;
+    private void midlDistance(){
+
+        double sum = 0;
+
+        if (distance.length > 0) {
             for (int j = 0; j < distance.length; j++) {
                 sum += distance[j];
             }
             average = sum / distance.length;
         }
+
+    }
+    private void farPoint(){
+        k=0;
+        n=0;
+        for (int i = 0; i <distance.length ; i++) {
+            if(average<distance[i]){
+               fPoint.add(i);
+               k++;
+            }else{
+                cPoint.add(i);
+                n++;
+            }
+
+
+
+        }
+        trapLine = new Line[k];
+        clothLineMath=new Line[n];
     }
 
+    private void crossLine(){
+        for (int i = 0; i <lineMath.length; i++) {
+            if (i < lineMath.length - 1) {
+                lineMath[i] = new Line(allPoint[i].getX(), allPoint[i + 1].getX(), allPoint[i].getY(), allPoint[i + 1].getY());
+            }else lineMath[i] = new Line(allPoint[i].getX(), allPoint[0].getX(), allPoint[i].getY(), allPoint[0].getY());
+
+        }
+    }
+    private void neareLineCross(){
+        for (int i = 0; i <clothLineMath.length-1 ; i++) {
+            clothLineMath[i]=new Line(allPoint[cPoint.get(i)].getX(),allPoint[cPoint.get(i+1)].getX(),allPoint[cPoint.get(i)].getY(),allPoint[cPoint.get(i+1)].getY());
+
+        }
+
+    }
+
+    private void farLine(){
+        for (int i = 0; i <trapLine.length ; i++) {
+            trapLine[i]= new Line(pointArtil.getX(),allPoint[fPoint.get(i)].getX(),pointArtil.getY(),allPoint[fPoint.get(i)].getY());
+
+        }
+
+
+    }
+
+
+
+    
     private void show(){
+        cVector(point);
         sourcePoints(point);
         simbios(point,sourcePoint);
         length(pointArtil,allPoint);
+        System.out.println("===============");
+        midlDistance();
+        crossLine();
+        farPoint();
+        farLine();
+        neareLineCross();
 
-        for (int i = 0; i <allPoint.length ; i++) {
-            System.out.println(distance[i]);
+        System.out.println(fPoint.size());
+
+        for (int i = 0; i <trapLine.length ; i++) {
+            System.out.println(allPoint[fPoint.get(i)].getX()+"=="+allPoint[fPoint.get(i)].getY());
 
         }
+
+//        for (int i = 0; i <fPoint.size() ; i++) {
+//            System.out.println(allPoint[fPoint.get(i)].getX()+" "+allPoint[fPoint.get(i)].getX());
+//
+//        }
+
+
+//        for (int i = 0; i <allPoint.length ; i++) {
+//            System.out.println(allPoint[i].getX()+" "+allPoint[i].getY());
+//
+//        }
+//        System.out.println("-------------------");
+//        for (int i = 0; i <point.length ; i++) {
+//            System.out.println(point[i].getX()+" "+point[i].getY());
+//
+//        }
+//
+//
+//
+//
+//
+//        for (int i = 0; i <lineMath.length ; i++) {
+//            System.out.println(lineMath[i].getA()+"=="+lineMath[i].getB()+"=="+lineMath[i].getC());
+//
+//        }
 
     }
 }
