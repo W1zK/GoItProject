@@ -5,11 +5,11 @@ import java.util.ArrayList;
 class Utils {
     private int k;
     private int n;
-    private  double average = 0; //midl distance
+    private double average = 0; //midl distance
     private Point[] point = new Point[7]; //point arr
-    private Point pointArtil = new Point(6,3); //artilery
+    private Point pointArtil = new Point(6, 3); //artilery
     private Point[] sourcePoint = new Point[point.length];
-    private Point[] allPoint = new Point[point.length*2];
+    private Point[] allPoint = new Point[point.length * 2];
     private ArrayList<Integer> fPoint = new ArrayList<Integer>(); //bigerThenMidl
     private ArrayList<Integer> cPoint = new ArrayList<Integer>();
     private Vector[] vector = new Vector[point.length];
@@ -19,11 +19,11 @@ class Utils {
     private Line[] lineMath = new Line[allPoint.length]; // AllLineCross
     private Line[] clothLineMath;
     private Line[] trapLine;
+    private ArrayList<Point> crossLineVsLine = new ArrayList<Point>();
+    private ArrayList<Point> valideCross = new ArrayList<Point>();
 
 
-
-
-    void run(){
+    void run() {
         point[0] = new Point(-1.5, 1.5);
         point[1] = new Point(-4, 2);
         point[2] = new Point(-2.5, -1.5);
@@ -90,39 +90,44 @@ class Utils {
 
     ////////////////////////////////////////////////////////
 
-    private void sourcePoints(Point[] source){
+    private void sourcePoints(Point[] source) {
 
-        for (int i = 0; i <point.length ; i++) {
-            if (i<source.length-1){
-                sourcePoint[i]=new Point((source[i].getX() + source[i+1].getX())/2,(source[i].getY() + source[i+1].getY())/2);
-            } else sourcePoint[i]=new Point((source[i].getX() + source[0].getX())/2,(source[i].getY() + source[0].getY())/2);
+        for (int i = 0; i < point.length; i++) {
+            if (i < source.length - 1) {
+                sourcePoint[i] = new Point((source[i].getX() + source[i + 1].getX()) / 2, (source[i].getY() + source[i + 1].getY()) / 2);
+            } else
+                sourcePoint[i] = new Point((source[i].getX() + source[0].getX()) / 2, (source[i].getY() + source[0].getY()) / 2);
 
         }
 
-        
 
     }
 
-    private void simbios(Point[] mass1,Point[] mass2){
+    private void simbios(Point[] mass1, Point[] mass2) {
         int j = 0;
-        for (int i = 0; i <allPoint.length ; i++) {
-            if (i<=point.length-1){
-                allPoint[i]=mass1[i];
-            }else allPoint[i] = mass2[j++];
+        int g = 1;
+        int f;
+        for (int i = 0; i < allPoint.length; i++) {
+            f = i % 2;
+            if (i == 0) {
+                allPoint[i] = mass1[i];
+
+            } else if (f != 0) {
+                allPoint[i] = mass2[j++];
+
+            } else allPoint[i] = mass1[g++];
+        }
+    }
+
+    private void length(Point dot, Point[] spray) {
+        for (int i = 0; i < distance.length; i++) {
+            distance[i] = Math.sqrt(Math.pow(dot.getX() - spray[i].getX(), 2) + Math.pow(dot.getY() - spray[i].getY(), 2));
 
         }
 
     }
 
-    private void length(Point dot,Point[] spray){
-        for (int i = 0; i <distance.length ; i++) {
-            distance[i]= Math.sqrt(Math.pow(dot.getX()-spray[i].getX(),2)+ Math.pow(dot.getY()-spray[i].getY(),2));
-
-        }
-
-    }
-
-    private void midlDistance(){
+    private void midlDistance() {
 
         double sum = 0;
 
@@ -134,74 +139,201 @@ class Utils {
         }
 
     }
-    private void farPoint(){
-        k=0;
-        n=0;
-        for (int i = 0; i <distance.length ; i++) {
-            if(average<distance[i]){
-               fPoint.add(i);
-               k++;
-            }else{
+
+    private void farPoint() {
+        k = 0;
+        n = 0;
+        for (int i = 0; i < distance.length; i++) {
+            if (average < distance[i]) {
+                fPoint.add(i);
+                k++;
+            } else {
                 cPoint.add(i);
                 n++;
             }
-
-
-
         }
         trapLine = new Line[k];
-        clothLineMath=new Line[n];
+        clothLineMath = new Line[n - 1];
     }
 
-    private void crossLine(){
-        for (int i = 0; i <lineMath.length; i++) {
+    private void crossLine() {
+        for (int i = 0; i < lineMath.length; i++) {
             if (i < lineMath.length - 1) {
                 lineMath[i] = new Line(allPoint[i].getX(), allPoint[i + 1].getX(), allPoint[i].getY(), allPoint[i + 1].getY());
-            }else lineMath[i] = new Line(allPoint[i].getX(), allPoint[0].getX(), allPoint[i].getY(), allPoint[0].getY());
+            } else
+                lineMath[i] = new Line(allPoint[i].getX(), allPoint[0].getX(), allPoint[i].getY(), allPoint[0].getY());
 
         }
     }
-    private void neareLineCross(){
-        for (int i = 0; i <clothLineMath.length-1 ; i++) {
-            clothLineMath[i]=new Line(allPoint[cPoint.get(i)].getX(),allPoint[cPoint.get(i+1)].getX(),allPoint[cPoint.get(i)].getY(),allPoint[cPoint.get(i+1)].getY());
+
+    private void neareLineCross() {
+        for (int i = 0; i < clothLineMath.length; i++) {
+            clothLineMath[i] = new Line(allPoint[cPoint.get(i)].getX(), allPoint[cPoint.get(i + 1)].getX(), allPoint[cPoint.get(i)].getY(), allPoint[cPoint.get(i + 1)].getY());
+//            if (i!=clothLineMath.length-1) {
+//                clothLineMath[i] = new Line(allPoint[cPoint.get(i)].getX(), allPoint[cPoint.get(i + 1)].getX(), allPoint[cPoint.get(i)].getY(), allPoint[cPoint.get(i + 1)].getY());
+//            }//else clothLineMath[i] = new Line(allPoint[cPoint.get(i)].getX(), allPoint[cPoint.get(i)].getX(), allPoint[cPoint.get(i)].getY(), allPoint[cPoint.get(i)].getY());
 
         }
 
     }
 
-    private void farLine(){
-        for (int i = 0; i <trapLine.length ; i++) {
-            trapLine[i]= new Line(pointArtil.getX(),allPoint[fPoint.get(i)].getX(),pointArtil.getY(),allPoint[fPoint.get(i)].getY());
+    private void farLine() {
+        for (int i = 0; i < trapLine.length; i++) {
+            trapLine[i] = new Line(pointArtil.getX(), allPoint[fPoint.get(i)].getX(), pointArtil.getY(), allPoint[fPoint.get(i)].getY());
 
         }
 
 
     }
 
+    private void lineVsLine() {
+        double x;
+        double y1;
+        double y2;
+        for (int i = 0; i < trapLine.length; i++) {//Пересечение главной линии с ближними линиями
+            for (int j = 0; j < clothLineMath.length; j++) {
+                x = (trapLine[i].getA() * clothLineMath[j].getC() - clothLineMath[j].getA() * trapLine[i].getC()) / (clothLineMath[j].getA() * trapLine[i].getB() - trapLine[i].getA() * clothLineMath[j].getB());
+                y1 = (trapLine[i].getB() * x + trapLine[i].getC()) / trapLine[i].getA();
+                y2 = (clothLineMath[j].getB() * x + clothLineMath[j].getC()) / clothLineMath[j].getA();
+                x = Math.round(x * 1000);
+                y1 = Math.round(y1 * 1000);
+                y2 = Math.round(y2 * 1000);
+                crossLineVsLine.add(new Point(x / 1000, y2 / 1000));
+
+//                System.out.println("++++++++++++++++"+clothLineMath[j].getA()+"++++++++++++++");
+//                System.out.println("\nx="+x+"\ny1="+y1+"\ny2="+y2+"\nj="+j+"\nLines="+trapLine[i].getA()+"\nLisen="+clothLineMath[j].getA());
+//                System.out.println("++++++++++++++++++++++++++++++");
+
+            }
+
+        }
+    }
+
+    private void ppp() {
+        double u1;
+        double u2;
+        int peres = 0;
+        int nePeres = 0;
+        for (int i = 0; i < cPoint.size() - 1; i++) {
+
+            for (int j = 0; j < crossLineVsLine.size(); j++) {
+                u1 = (Math.round((crossLineVsLine.get(j).getX() - allPoint[cPoint.get(i)].getX()) / (allPoint[cPoint.get(i + 1)].getX() - allPoint[cPoint.get(i)].getX()) * 1000)) / 1000;
+                u2 = (Math.round((crossLineVsLine.get(j).getY() - allPoint[cPoint.get(i)].getY()) / (allPoint[cPoint.get(i + 1)].getY() - allPoint[cPoint.get(i)].getY()) * 1000)) / 1000;
+
+                if (crossLineVsLine.get(j).getX() > allPoint[cPoint.get(i)].getX()
+                        && crossLineVsLine.get(j).getX() < allPoint[cPoint.get(i + 1)].getX()
+                        || crossLineVsLine.get(j).getX() > allPoint[cPoint.get(i + 1)].getX()
+                        && crossLineVsLine.get(j).getX() < allPoint[cPoint.get(i)].getX()) {
+                    if (crossLineVsLine.get(j).getY() > allPoint[cPoint.get(i)].getY()
+                            && crossLineVsLine.get(j).getY() < allPoint[cPoint.get(i + 1)].getY()
+                            || crossLineVsLine.get(j).getY() > allPoint[cPoint.get(i + 1)].getY()
+                            && crossLineVsLine.get(j).getY() < allPoint[cPoint.get(i)].getY()) {
+                        if (u1 == u2) {
+                            System.out.print("\ni=" + i + "\nj=" + j + "\nUAREGOG");
+                            System.out.println("========" + crossLineVsLine.get(j).getX() + "==" + crossLineVsLine.get(j).getY() + "========");
+                            peres++;
+                        } else nePeres++;
+                    }
+                }
+
+            }
+        }
+        System.out.println("\n" + peres);
+        System.out.println(nePeres);
+
+    }
 
 
-    
-    private void show(){
+    private void pointOnSegment() {
+        double z;
+        double v;
+        int peres = 0;
+        int nePeres = 0;
+
+
+        for (int i = 0; i < cPoint.size(); i++) {
+
+            for (int j = 0; j < crossLineVsLine.size(); j++) {
+                if (i == 0) {
+                    z = (crossLineVsLine.get(j).getX() - allPoint[cPoint.get(i)].getX()) / (allPoint[cPoint.get(i + 1)].getX() - allPoint[cPoint.get(i)].getX());
+                    v = (crossLineVsLine.get(j).getY() - allPoint[cPoint.get(i)].getY()) / (allPoint[cPoint.get(i + 1)].getY() - allPoint[cPoint.get(i)].getY());
+
+                } else {
+                    z = (crossLineVsLine.get(j).getX() - allPoint[cPoint.get(i - 1)].getX()) / (allPoint[cPoint.get(i)].getX() - allPoint[cPoint.get(i - 1)].getX());
+                    v = (crossLineVsLine.get(j).getY() - allPoint[cPoint.get(i - 1)].getY()) / (allPoint[cPoint.get(i)].getY() - allPoint[cPoint.get(i - 1)].getY());
+                }
+
+
+                if (z == v) {
+                    System.out.print("\ni=" + i + "\nj=" + j + "\nUAREGOG");
+                    System.out.println("========" + crossLineVsLine.get(j).getX() + "==" + crossLineVsLine.get(j).getY() + "========");
+                    peres++;
+                } else {
+                    //System.out.print("\ni=" + i + "\nj=" + j + "\nWORKMORE");
+                    nePeres++;
+                }
+            }
+
+        }
+        System.out.println("\n" + peres);
+        System.out.println(nePeres);
+    }
+
+
+    private void show() {
         cVector(point);
         sourcePoints(point);
-        simbios(point,sourcePoint);
-        length(pointArtil,allPoint);
-        System.out.println("===============");
+        simbios(point, sourcePoint);
+        length(pointArtil, allPoint);
         midlDistance();
         crossLine();
         farPoint();
         farLine();
         neareLineCross();
 
-        System.out.println(fPoint.size());
+        lineVsLine();
 
-        for (int i = 0; i <trapLine.length ; i++) {
-            System.out.println(allPoint[fPoint.get(i)].getX()+"=="+allPoint[fPoint.get(i)].getY());
+        //pointOnSegment();
+        ppp();
+        System.out.println(crossLineVsLine.get(30).getX() + "==" + crossLineVsLine.get(30).getY());
+        System.out.println(crossLineVsLine.get(36).getX() + "==" + crossLineVsLine.get(36).getY());
+        System.out.println("++++++++" + (allPoint[7].getX() + "-" + (allPoint[7].getY() + "=======")));
+        System.out.println("++++++++" + (allPoint[8].getX() + "-" + (allPoint[8].getY() + "=======")));
+        System.out.println("++++++++" + (allPoint[9].getX() + "-" + (allPoint[9].getY() + "=======")));
+        System.out.println("++++++++" + (allPoint[10].getX() + "-" + (allPoint[10].getY() + "=======")));
+        System.out.println("++++++++" + (allPoint[11].getX() + "-" + (allPoint[11].getY() + "=======")));
+        System.out.println("++++++++" + (allPoint[12].getX() + "-" + (allPoint[12].getY() + "=======")));
+        System.out.println("++++++++" + (allPoint[13].getX() + "-" + (allPoint[13].getY() + "=======")));
+        System.out.println("*****************************************************");
+        for (int i = 0; i < cPoint.size(); i++) {
+            System.out.println("++++++++" + (allPoint[cPoint.get(i)].getX() + "-" + (allPoint[cPoint.get(i)].getY() + "=======")));
 
         }
 
+
+//        System.out.println(trapLine.length);
+//        System.out.println(clothLineMath.length);
+//        System.out.println("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq");
+//
+//
+//        for (int i = 0; i <crossLineVsLine.size() ; i++) {
+//            System.out.println(crossLineVsLine.get(i).getX()+"=="+crossLineVsLine.get(i).getY());
+//
+//        }
+//        System.out.println("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq");
+//
+//        for (int p = 0; p <clothLineMath.length ; p++) {
+//            System.out.println(p+"---"+clothLineMath[p].getA()+"=="+clothLineMath[p].getB()+"=="+clothLineMath[p].getC());
+//
+//        }
+//
 //        for (int i = 0; i <fPoint.size() ; i++) {
-//            System.out.println(allPoint[fPoint.get(i)].getX()+" "+allPoint[fPoint.get(i)].getX());
+//            System.out.println(i+"=="+allPoint[fPoint.get(i)].getX()+" "+allPoint[fPoint.get(i)].getY());
+//
+//        }
+//        System.out.println("*************************************************");
+//        for (int i = 0; i <cPoint.size() ; i++) {
+//            System.out.println(i+"=="+allPoint[cPoint.get(i)].getX()+" "+allPoint[cPoint.get(i)].getY());
 //
 //        }
 
