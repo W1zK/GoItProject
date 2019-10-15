@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="82c6e842-2e6f-4521-9126-8ea6ab68fae4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoItProject/META-INF/GoItProject.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GoItProject/META-INF/GoItProject.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home5/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home5/MainScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home5/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home5/Segment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home5/Vector.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork5/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork5/Utils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +17,101 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HomeWork5/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1011#1018#0" expanded="true" />
+                <element signature="method#run#0;class#Utils#0" />
+                <element signature="e#1320#1337#0" />
+                <element signature="method#checker#0;class#Utils#0" />
+                <element signature="e#1464#1556#1" />
+                <element signature="e#1501#1546#1" />
+                <element signature="e#1576#1787#1" />
+                <element signature="e#1690#1757#1" />
+                <element signature="method#delPoint1#0;class#Utils#0" />
+                <element signature="e#1884#2238#1" />
+                <element signature="e#1940#2228#1" />
+                <element signature="e#1983#2083#1" />
+                <element signature="e#2114#2214#1" />
+                <element signature="method#cVector#0;class#Utils#0" />
+                <element signature="e#2335#2598#1" />
+                <element signature="e#2376#2499#1" />
+                <element signature="method#cDerivative#0;class#Utils#0" />
+                <element signature="e#2732#2986#1" />
+                <element signature="e#2770#2892#1" />
+                <element signature="method#sourcePoints#0;class#Utils#0" />
+                <element signature="e#3183#3523#1" />
+                <element signature="e#3224#3377#1" />
+                <element signature="method#simbios#0;class#Utils#0" />
+                <element signature="e#3693#3915#1" />
+                <element signature="e#3742#3798#1" />
+                <element signature="e#3816#3874#1" />
+                <element signature="method#length#0;class#Utils#0" />
+                <element signature="e#4025#4161#1" />
+                <element signature="method#midlDistance#0;class#Utils#0" />
+                <element signature="e#4263#4425#1" />
+                <element signature="e#4319#4370#1" />
+                <element signature="method#farPoint#0;class#Utils#0" />
+                <element signature="e#4544#4735#1" />
+                <element signature="e#4585#4652#1" />
+                <element signature="e#4658#4725#1" />
+                <element signature="method#crossLine#0;class#Utils#0" />
+                <element signature="e#4897#5219#1" />
+                <element signature="e#4940#5083#1" />
+                <element signature="method#neareLineCross#0;class#Utils#0" />
+                <element signature="e#5318#5916#1" />
+                <element signature="e#5497#5543#0" />
+                <element signature="method#farLine#0;class#Utils#0" />
+                <element signature="e#6004#6154#1" />
+                <element signature="e#7015#7113#0" />
+                <element signature="method#pointOnSegment#0;class#Utils#0" />
+                <element signature="e#9382#10630#1" />
+                <element signature="e#9446#10619#1" />
+                <element signature="e#9476#9820#1" />
+                <element signature="e#9826#10177#1" />
+                <element signature="e#10208#10469#1" />
+                <element signature="e#10475#10605#1" />
+                <element signature="e#12265#12311#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWork5/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,14 +123,64 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Home5/Line.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork5/Utils.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1" />
+    <option name="width" value="1922" />
+    <option name="height" value="1046" />
+  </component>
   <component name="ProjectId" id="1S95lrZCM2qBuca8o4GcDOSVaCw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork5" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Home5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\GoIt\GoItProject\src\Home5" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,7 +194,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home5.Main" />
+      <module name="GoItProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork5.Main" />
       <module name="GoItProject" />
@@ -59,6 +224,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -74,8 +240,47 @@
       <updated>1570963125404</updated>
       <workItem from="1570963129980" duration="19386000" />
       <workItem from="1571044885914" duration="30827000" />
+      <workItem from="1571128207639" duration="5903000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5903000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45352742" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -86,11 +291,223 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/HomeWork5/Utils.java</url>
+          <line>247</line>
+          <properties class="HomeWork5.Utils" method="creatValidePoint">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Home5/Vector.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/MainScaner.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Segment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Point.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home5/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+          <folding>
+            <element signature="method#run#0;class#Utils#0" />
+            <element signature="e#1316#1333#0" />
+            <element signature="method#checker#0;class#Utils#0" />
+            <element signature="e#1460#1552#1" />
+            <element signature="e#1497#1542#1" />
+            <element signature="e#1572#1783#1" />
+            <element signature="e#1686#1753#1" />
+            <element signature="method#delPoint1#0;class#Utils#0" />
+            <element signature="e#1880#2234#1" />
+            <element signature="e#1936#2224#1" />
+            <element signature="e#1979#2079#1" />
+            <element signature="e#2110#2210#1" />
+            <element signature="method#cVector#0;class#Utils#0" />
+            <element signature="e#2331#2594#1" />
+            <element signature="e#2372#2495#1" />
+            <element signature="method#cDerivative#0;class#Utils#0" />
+            <element signature="e#2728#2982#1" />
+            <element signature="e#2766#2888#1" />
+            <element signature="method#sourcePoints#0;class#Utils#0" />
+            <element signature="e#3179#3519#1" />
+            <element signature="e#3220#3373#1" />
+            <element signature="method#simbios#0;class#Utils#0" />
+            <element signature="e#3689#3911#1" />
+            <element signature="e#3738#3794#1" />
+            <element signature="e#3812#3870#1" />
+            <element signature="method#length#0;class#Utils#0" />
+            <element signature="e#4021#4157#1" />
+            <element signature="method#midlDistance#0;class#Utils#0" />
+            <element signature="e#4259#4421#1" />
+            <element signature="e#4315#4366#1" />
+            <element signature="method#farPoint#0;class#Utils#0" />
+            <element signature="e#4540#4731#1" />
+            <element signature="e#4581#4648#1" />
+            <element signature="e#4654#4721#1" />
+            <element signature="method#crossLine#0;class#Utils#0" />
+            <element signature="e#4893#5215#1" />
+            <element signature="e#4936#5079#1" />
+            <element signature="method#neareLineCross#0;class#Utils#0" />
+            <element signature="e#5314#5912#1" />
+            <element signature="e#5493#5539#0" />
+            <element signature="method#lineVsLine#0;class#Utils#0" />
+            <element signature="e#6298#7351#1" />
+            <element signature="e#6405#7340#1" />
+            <element signature="e#7011#7109#0" />
+            <element signature="method#ppp#0;class#Utils#0" />
+            <element signature="e#7522#9119#1" />
+            <element signature="e#7586#9109#1" />
+            <element signature="e#8325#9094#1" />
+            <element signature="e#8705#9076#1" />
+            <element signature="e#8745#9038#1" />
+            <element signature="method#pointOnSegment#0;class#Utils#0" />
+            <element signature="e#9378#10626#1" />
+            <element signature="e#9442#10615#1" />
+            <element signature="e#9472#9816#1" />
+            <element signature="e#9822#10173#1" />
+            <element signature="e#10204#10465#1" />
+            <element signature="e#10471#10601#1" />
+            <element signature="method#show#0;class#Utils#0" />
+            <element signature="e#12114#12258#1" />
+            <element signature="e#12261#12307#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork5/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1011#1018#0" expanded="true" />
+            <element signature="method#run#0;class#Utils#0" />
+            <element signature="e#1320#1337#0" />
+            <element signature="method#checker#0;class#Utils#0" />
+            <element signature="e#1464#1556#1" />
+            <element signature="e#1501#1546#1" />
+            <element signature="e#1576#1787#1" />
+            <element signature="e#1690#1757#1" />
+            <element signature="method#delPoint1#0;class#Utils#0" />
+            <element signature="e#1884#2238#1" />
+            <element signature="e#1940#2228#1" />
+            <element signature="e#1983#2083#1" />
+            <element signature="e#2114#2214#1" />
+            <element signature="method#cVector#0;class#Utils#0" />
+            <element signature="e#2335#2598#1" />
+            <element signature="e#2376#2499#1" />
+            <element signature="method#cDerivative#0;class#Utils#0" />
+            <element signature="e#2732#2986#1" />
+            <element signature="e#2770#2892#1" />
+            <element signature="method#sourcePoints#0;class#Utils#0" />
+            <element signature="e#3183#3523#1" />
+            <element signature="e#3224#3377#1" />
+            <element signature="method#simbios#0;class#Utils#0" />
+            <element signature="e#3693#3915#1" />
+            <element signature="e#3742#3798#1" />
+            <element signature="e#3816#3874#1" />
+            <element signature="method#length#0;class#Utils#0" />
+            <element signature="e#4025#4161#1" />
+            <element signature="method#midlDistance#0;class#Utils#0" />
+            <element signature="e#4263#4425#1" />
+            <element signature="e#4319#4370#1" />
+            <element signature="method#farPoint#0;class#Utils#0" />
+            <element signature="e#4544#4735#1" />
+            <element signature="e#4585#4652#1" />
+            <element signature="e#4658#4725#1" />
+            <element signature="method#crossLine#0;class#Utils#0" />
+            <element signature="e#4897#5219#1" />
+            <element signature="e#4940#5083#1" />
+            <element signature="method#neareLineCross#0;class#Utils#0" />
+            <element signature="e#5318#5916#1" />
+            <element signature="e#5497#5543#0" />
+            <element signature="method#farLine#0;class#Utils#0" />
+            <element signature="e#6004#6154#1" />
+            <element signature="e#7015#7113#0" />
+            <element signature="method#pointOnSegment#0;class#Utils#0" />
+            <element signature="e#9382#10630#1" />
+            <element signature="e#9446#10619#1" />
+            <element signature="e#9476#9820#1" />
+            <element signature="e#9826#10177#1" />
+            <element signature="e#10208#10469#1" />
+            <element signature="e#10475#10605#1" />
+            <element signature="e#12265#12311#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

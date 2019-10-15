@@ -1,6 +1,8 @@
 package HomeWork5;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 class Utils {
     private int k;
@@ -20,7 +22,7 @@ class Utils {
     private Line[] clothLineMath;
     private Line[] trapLine;
     private ArrayList<Point> crossLineVsLine = new ArrayList<Point>();
-    private ArrayList<Point> valideCross = new ArrayList<Point>();
+    private ArrayList<Point> sourceValideCross = new ArrayList<Point>();
 
 
     void run() {
@@ -229,6 +231,7 @@ class Utils {
                             || crossLineVsLine.get(j).getY() > allPoint[cPoint.get(i + 1)].getY()
                             && crossLineVsLine.get(j).getY() < allPoint[cPoint.get(i)].getY()) {
                         if (u1 == u2) {
+                            sourceValideCross.add(new Point(crossLineVsLine.get(j).getX(),crossLineVsLine.get(j).getY()));
                             System.out.print("\ni=" + i + "\nj=" + j + "\nUAREGOG");
                             System.out.println("========" + crossLineVsLine.get(j).getX() + "==" + crossLineVsLine.get(j).getY() + "========");
                             peres++;
@@ -240,6 +243,30 @@ class Utils {
         }
         System.out.println("\n" + peres);
         System.out.println(nePeres);
+
+    }
+    private void creatValidePoint(){
+        for (int i = 0; i <sourceValideCross.size() ; i++) {
+            for (int j = 1; j <sourceValideCross.size() ; j++) {
+
+                    if (sourceValideCross.get(i).getX() == sourceValideCross.get(j).getX() && sourceValideCross.get(i).getY() == sourceValideCross.get(j).getY()) {
+                        sourceValideCross.remove(i);
+                        //valideCross.add(new Point(sourceValideCross.get(i).getX(), sourceValideCross.get(i).getY()));
+
+                    }
+
+            }
+
+
+
+
+
+
+
+
+
+
+        }
 
     }
 
@@ -290,11 +317,16 @@ class Utils {
         farPoint();
         farLine();
         neareLineCross();
-
         lineVsLine();
+        ppp();
+        creatValidePoint();
+        for (int i = 0; i <sourceValideCross.size() ; i++) {
+            System.out.println("***********"+sourceValideCross.get(i).getX()+"--"+sourceValideCross.get(i).getY()+"***********");
+
+        }
 
         //pointOnSegment();
-        ppp();
+
         System.out.println(crossLineVsLine.get(30).getX() + "==" + crossLineVsLine.get(30).getY());
         System.out.println(crossLineVsLine.get(36).getX() + "==" + crossLineVsLine.get(36).getY());
         System.out.println("++++++++" + (allPoint[7].getX() + "-" + (allPoint[7].getY() + "=======")));
