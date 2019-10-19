@@ -1,4 +1,5 @@
 package offline.praktika;
 
-public class Screen {
+public class Screen implements TechSpecification {
+    float d;
 }

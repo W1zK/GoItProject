@@ -1,4 +1,7 @@
 package offline.praktika;
 
-public class ShelfLife {
+public class ShelfLife implements TechSpecification {
+    double date;
+    double t;
+    int term;
 }

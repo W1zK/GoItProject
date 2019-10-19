@@ -1,4 +1,5 @@
 package offline.praktika;
 
-public class Sort {
+public class Sort implements TechSpecification {
+    String typeSort;
 }

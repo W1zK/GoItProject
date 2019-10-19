@@ -1,11 +1,10 @@
 package NMEA2;
 
-public class Gpsv implements Circumcision {
+class Gpgsv implements Circumcision {
 
-    static void gpgsvMethod(String gpsType) {
-        Main main = new Main();
+    void gpgsvMethod(String gpsType) {
 
-        Circumcision.circumcision(gpsType);
+        circumcision(gpsType);
 
         String type = Main.subStr[0];
         int qMassage = Main.subStr[1].equals("") ? 0 : Integer.parseInt(Main.subStr[1]); //quantity massage

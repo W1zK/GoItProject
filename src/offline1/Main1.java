@@ -1,6 +1,6 @@
 package offline1;
 
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
        electricityEnable(new Lamp());
        electricityEnable(new ElectricityConsumer() {
@@ -9,6 +9,12 @@ public class Main {
                System.out.println("short circuit");
                doSomthing();
            }
+
+           @Override
+           public String getType() {
+               return null;
+           }
+
            void doSomthing(){
                doSomthing2();
            }

@@ -1,4 +1,5 @@
 package offline.praktika;
 
-public class OperationSystem {
+public class OperationSystem implements TechSpecification {
+    String os;
 }

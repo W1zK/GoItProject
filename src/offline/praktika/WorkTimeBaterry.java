@@ -1,4 +1,5 @@
 package offline.praktika;
 
-public class WorkTimeBaterry {
+public class WorkTimeBaterry implements TechSpecification {
+    int time;
 }

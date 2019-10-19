@@ -221,17 +221,17 @@ class Utils {
         for (int i = 0; i < cPoint.size() - 1; i++) {
 
             for (int j = 0; j < xy.size(); j++) {
-                z = (Math.round((xy.get(j).getX() - allPoint[cPoint.get(i)].getX()) / (allPoint[cPoint.get(i + 1)].getX() - allPoint[cPoint.get(i)].getX()) * 1000)) / 1000;
-                v = (Math.round((xy.get(j).getY() - allPoint[cPoint.get(i)].getY()) / (allPoint[cPoint.get(i + 1)].getY() - allPoint[cPoint.get(i)].getY()) * 1000)) / 1000;
+                z = (Math.round((xy.get(j).getX() - mass[cPoint.get(i)].getX()) / (mass[cPoint.get(i + 1)].getX() - mass[cPoint.get(i)].getX()) * 1000)) / 1000;
+                v = (Math.round((xy.get(j).getY() - mass[cPoint.get(i)].getY()) / (mass[cPoint.get(i + 1)].getY() - mass[cPoint.get(i)].getY()) * 1000)) / 1000;
 
-                if (xy.get(j).getX() > allPoint[cPoint.get(i)].getX()
-                        && xy.get(j).getX() < allPoint[cPoint.get(i + 1)].getX()
-                        || xy.get(j).getX() > allPoint[cPoint.get(i + 1)].getX()
-                        && xy.get(j).getX() < allPoint[cPoint.get(i)].getX()) {
-                    if (xy.get(j).getY() > allPoint[cPoint.get(i)].getY()
-                            && xy.get(j).getY() < allPoint[cPoint.get(i + 1)].getY()
-                            || xy.get(j).getY() > allPoint[cPoint.get(i + 1)].getY()
-                            && xy.get(j).getY() < allPoint[cPoint.get(i)].getY()) {
+                if (xy.get(j).getX() > mass[cPoint.get(i)].getX()
+                        && xy.get(j).getX() < mass[cPoint.get(i + 1)].getX()
+                        || xy.get(j).getX() > mass[cPoint.get(i + 1)].getX()
+                        && xy.get(j).getX() < mass[cPoint.get(i)].getX()) {
+                    if (xy.get(j).getY() > mass[cPoint.get(i)].getY()
+                            && xy.get(j).getY() < mass[cPoint.get(i + 1)].getY()
+                            || xy.get(j).getY() > mass[cPoint.get(i + 1)].getY()
+                            && xy.get(j).getY() < mass[cPoint.get(i)].getY()) {
                         if (z == v) {
                             sourceValideCross.add(new Point(xy.get(j).getX(), xy.get(j).getY()));
 
@@ -261,6 +261,10 @@ class Utils {
 
         }
         show();
+
+    }
+
+    private void sTrapez(){
 
     }
 
