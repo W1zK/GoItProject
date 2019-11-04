@@ -2,48 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c6e842-2e6f-4521-9126-8ea6ab68fae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Circumcision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/DateConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Glgsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Gngga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Gngll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Gngsa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Gnrmc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Gnvtg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Gpgsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/MassageStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NMEA2/TimeConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/Brend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/Cpu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/Guarantee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/OperationSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/Ram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/ShelfLife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/TechSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/VideoCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/VideoMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline/praktika/WorkTimeBaterry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/ElectricityConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/Lamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/LedLamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/MyAnnot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/Plasma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/Switcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offline1/Tolik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/COnst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/BluetoothException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/MassageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/TypeInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoItProject/META-INF/GoItProject.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GoItProject/META-INF/GoItProject.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork5/MainScaner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork5/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork5/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offline/praktika/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offline/praktika/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offline/praktika/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offline/praktika/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offline/praktika/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offline/praktika/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offline/praktika/Vagetables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offline/praktika/Vagetables.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +28,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +44,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/NMEA2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -94,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NMEA2.Main" />
       <module name="GoItProject" />
@@ -108,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offline.praktika.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offline1.Main" />
       <module name="GoItProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offline.praktika.*" />
+          <option name="PATTERN" value="offline1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offline1.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Logger.Main" />
       <module name="GoItProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offline1.*" />
+          <option name="PATTERN" value="Logger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +157,9 @@
       <workItem from="1571311405558" duration="720000" />
       <workItem from="1571333062572" duration="5953000" />
       <workItem from="1571468376648" duration="11123000" />
-      <workItem from="1571489008808" duration="8455000" />
+      <workItem from="1571489008808" duration="8658000" />
+      <workItem from="1572682759333" duration="10765000" />
+      <workItem from="1572768552175" duration="146000" />
     </task>
     <servers />
   </component>
