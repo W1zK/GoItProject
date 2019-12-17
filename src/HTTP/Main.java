@@ -4,8 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.*;
 
 import java.io.*;
-import java.net.URL;
-import java.net.URLConnection;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -45,7 +43,7 @@ public class Main {
     private static void postRequest() throws IOException {
         OkHttpClient client = new OkHttpClient();
         Response response = client.newCall(new Request.Builder()
-                .url("https://pingponggoit.herokuapp.com/sendMessage")
+                .url("https://pingponggoit.herokuapp.com/swagger-ui.html")
                 .post(RequestBody.create(MediaType.parse("application/json"), "new message"))
                 .build()).execute();
         System.out.println(new String(response.body().bytes()));
