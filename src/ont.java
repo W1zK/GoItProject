@@ -1,14 +1,13 @@
 import java.util.Scanner;
 
-public class ont {
-    public static void main() {
-        Scanner scaner = new Scanner(System.in);
-        System.out.print("Введите число X:");
-        int x = scaner.nextInt();
-        for (int i = 1; i <= x; i++) {
+class Main {
+    static char x = '*';
+    static int a = 2;
+    static int b = 3;
 
-            System.out.println(i);
-        }
+    public static void main(String[] args) {
+        int z = Integer.valueOf("axb");
+        System.out.println(z);
     }
 }
 
