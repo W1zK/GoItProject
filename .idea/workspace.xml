@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c6e842-2e6f-4521-9126-8ea6ab68fae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Semophore/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyncSemaphore/SyncSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/YoutoubeAPI/Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/YoutoubeAPI/Const.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoItProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoItProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoItProject/META-INF/GoItProject.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +20,15 @@
     <favorites_list name="GoItProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SocketServer/ServerUdp.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HTTP/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="391">
+              <caret line="32" column="39" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SocketClient/ClientUdp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -97,10 +87,16 @@
         <option value="$PROJECT_DIR$/src/SocketServer/Server.java" />
         <option value="$PROJECT_DIR$/src/SocketServer/ServerUdp.java" />
         <option value="$PROJECT_DIR$/src/SocketClient/ClientUdp.java" />
+        <option value="$PROJECT_DIR$/src/YoutoubeAPI/Const.java" />
+        <option value="$PROJECT_DIR$/src/YoutoubeAPI/Connect.java" />
+        <option value="$PROJECT_DIR$/src/TestAPI/YouTubeMedia.java" />
+        <option value="$PROJECT_DIR$/src/TestAPI/YouTubeVideo.java" />
+        <option value="$PROJECT_DIR$/src/TestAPI/YouTubeTester.java" />
+        <option value="$PROJECT_DIR$/src/TestAPI/YouTubeManager.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-3" />
     <option name="width" value="1924" />
     <option name="height" value="1048" />
@@ -114,42 +110,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="!GIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="!GIT" type="462c0819:PsiDirectoryNode" />
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="!GIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="!GIT" type="462c0819:PsiDirectoryNode" />
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="!GIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="!GIT" type="462c0819:PsiDirectoryNode" />
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeWork9" type="462c0819:PsiDirectoryNode" />
+              <item name="HTTP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="!GIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="!GIT" type="462c0819:PsiDirectoryNode" />
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoItProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SocketClient" type="462c0819:PsiDirectoryNode" />
+              <item name="YoutoubeAPI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="!GIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="!GIT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SocketServer" type="462c0819:PsiDirectoryNode" />
+              <item name="GoItProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +151,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/SocketServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -299,17 +293,18 @@
       <workItem from="1576480663933" duration="12771000" />
       <workItem from="1576606837707" duration="6074000" />
       <workItem from="1576777358868" duration="5966000" />
+      <workItem from="1577091791030" duration="4675000" />
+      <workItem from="1577099114918" duration="1420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69948000" />
+    <option name="totallyTimeSpent" value="76043000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.15369128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.15709047" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.10452323" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +321,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -434,20 +429,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FindeFile/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enums/COnst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons23_11/num/Type1.java" />
     <entry file="file://$PROJECT_DIR$/src/lessons23_11/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -702,16 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HTTP/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="59" column="31" selection-start-line="58" selection-start-column="8" selection-end-line="59" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Practika/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -729,16 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketClient/Client1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="78" lean-forward="true" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SocketClient/Client1.java" />
     <entry file="file://$PROJECT_DIR$/src/HomeWork9/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -753,37 +715,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketClient/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/SocketClient/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/SocketServer/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/SocketServer/ServerUdp.java" />
+    <entry file="file://$PROJECT_DIR$/src/SocketClient/ClientUdp.java" />
+    <entry file="file://$PROJECT_DIR$/src/YoutoubeAPI/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" selection-start-line="33" selection-end-line="35" />
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutoubeAPI/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestAPI/YouTubeMedia.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestAPI/YouTubeVideo.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestAPI/YouTubeTester.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestAPI/YouTubeManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/HTTP/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="39" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketServer/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketServer/ServerUdp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketClient/ClientUdp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -848,7 +808,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jackson-annotations-2.10.1</last-edited>
+          <last-edited>gdata-youtube-1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
